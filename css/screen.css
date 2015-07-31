@@ -251,6 +251,7 @@ a { text-decoration: none; color: #ffba00; }
 .input.input_area { display: block; height: 122px; padding: 8px 12px; border: none; resize: none; }
 
 .form { max-width: 600px; padding: 30px 40px; border: 4px solid #5e6979; background: url(../img/bg.jpg); }
+@media only screen and (max-width: 760px) { .form { padding: 30px 20px; } }
 .form.form_footer { margin-top: 40px; padding: 0 0 50px; border-width: 0 4px 4px; background: none; }
 @media only screen and (max-width: 760px) { .form.form_footer { border-width: 4px; padding: 20px; } }
 .form.form_footer .form__title { position: relative; top: -32px; margin-bottom: 5px; }
@@ -263,8 +264,9 @@ a { text-decoration: none; color: #ffba00; }
 @media only screen and (max-width: 760px) { .form .form__title { font-size: 24px; } }
 .form .form__in { max-width: 360px; margin: 0 auto; }
 
-.popup { display: none; position: fixed; top: 0; left: 0; width: 100%; min-width: 320px; height: 100%; background: rgba(0, 0, 0, 0.9); padding: 20px; text-align: center; font-size: 0; z-index: 999; }
+.popup { display: none; position: fixed; top: 0; left: 0; width: 100%; min-width: 320px; height: 100%; background: rgba(0, 0, 0, 0.9); padding: 20px; text-align: center; font-size: 0; overflow: auto; z-index: 999; }
 .popup:before { content: ""; display: inline-block; vertical-align: middle; width: 0; height: 100%; }
+@media only screen and (max-width: 760px) { .popup { padding: 10px; } }
 .popup.popup_menu { background: url(../img/bg.jpg) no-repeat 50% 50%/cover; }
 .popup.popup_menu .popup__in { max-width: 672px; }
 .popup.popup_menu .popup__close { background: #ffba00; }
@@ -272,6 +274,7 @@ a { text-decoration: none; color: #ffba00; }
 .popup.popup_gallery { padding: 0; }
 .popup.popup_gallery:before { display: none; }
 .popup.popup_gallery .popup__close { top: 50px; right: 80px; width: 104px; height: 104px; background-color: rgba(19, 29, 45, 0.6); border: 2px solid white; border-radius: 50%; }
+@media only screen and (max-width: 760px) { .popup.popup_gallery .popup__close { top: 0; right: 0; -ms-transform: scale(0.4); -webkit-transform: scale(0.4); transform: scale(0.4); } }
 .popup.popup_gallery .popup__close:before { background: url('../img/icons-s4c290b0a50.png') 0 -336px no-repeat; width: 29px; height: 28px; }
 .popup .popup__in { display: inline-block; position: relative; vertical-align: middle; }
 .popup .popup__close { position: absolute; top: 5px; right: 5px; padding: 15px; background: none; font-size: 0; z-index: 99; }
@@ -280,18 +283,21 @@ a { text-decoration: none; color: #ffba00; }
 
 .menu { margin-bottom: 60px; }
 .menu .menu__title { margin-bottom: 40px; padding: 10px 0; font-size: 30px; color: white; text-transform: uppercase; font-weight: 600; text-align: left; }
-.menu .btn { margin-bottom: 6px; }
+.menu .btn { margin: 0 3px 6px; }
 
 .slider { display: inline-block; width: 100%; height: 100%; }
 .slider .slider__item { width: 100%; height: 100%; background-size: cover; background-position: 50% 50%; }
 .slider .slick-list { width: 100%; }
 .slider .slick-track, .slider .slick-list { height: 100%; }
 .slider .slick-prev, .slider .slick-next { top: auto; bottom: 50px; margin: 0; width: 104px; height: 104px; background-color: rgba(19, 29, 45, 0.6); border: 2px solid white; border-radius: 50%; }
+@media only screen and (max-width: 760px) { .slider .slick-prev, .slider .slick-next { bottom: 0; -ms-transform: scale(0.4); -webkit-transform: scale(0.4); transform: scale(0.4); } }
 .slider .slick-prev:hover, .slider .slick-next:hover { opacity: 0.7; }
 .slider .slick-prev:before, .slider .slick-next:before { content: ""; }
 .slider .slick-prev { left: 80px; padding-right: 10px; }
+@media only screen and (max-width: 760px) { .slider .slick-prev { left: 0; } }
 .slider .slick-prev:before { width: 0px; height: 0px; border-style: solid; border-width: 21px 36px 21px 0; border-color: transparent white transparent transparent; }
 .slider .slick-next { right: 80px; padding-left: 10px; }
+@media only screen and (max-width: 760px) { .slider .slick-next { right: 0; } }
 .slider .slick-next:before { width: 0px; height: 0px; border-style: solid; border-width: 21px 0 21px 36px; border-color: transparent transparent transparent white; }
 
 .slick-slider { position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
