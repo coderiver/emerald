@@ -38,5 +38,92 @@ head.ready(function() {
 		welcome.fadeIn();
 	}, 1000);
 }());
+
+// form
+(function () {
+	var body = $('body'),
+		popup = $('.js-popup'),
+		notify = $('.js-notify');
+	// welcome
+	$.validate({
+		form : '#form-welcome',
+		onSuccess: function() {
+			post_data = {
+				'name': $('#form-welcome input[name=name]').val(), 
+				'email': $('#form-welcome input[name=email]').val(),
+				'phone': $('#form-welcome input[name=phone]').val()
+			};
+			//Ajax post data to server
+			$.post('send.php', post_data, function(response){  
+				if (response.type == 'error') {}
+				else {
+					//reset values in all input fields
+					body.removeClass('no-scroll');
+					popup.fadeOut();
+					$('#form-welcome').get(0).reset();
+					notify.fadeIn();
+					setTimeout(function () {
+						notify.fadeOut();
+					}, 2000);
+				}
+			}, 'json');
+			return false;
+		}
+	});
+	// welcome
+	$.validate({
+		form : '#form-feedback',
+		onSuccess: function() {
+			post_data = {
+				'name': $('#form-feedback input[name=name]').val(), 
+				'email': $('#form-feedback input[name=email]').val(),
+				'phone': $('#form-feedback input[name=phone]').val(),
+				'comment': $('#form-feedback textarea[name=comment]').val()
+			};
+			//Ajax post data to server
+			$.post('send.php', post_data, function(response){  
+				if (response.type == 'error') {}
+				else {
+					//reset values in all input fields
+					$('#form-feedback').get(0).reset();
+					body.removeClass('no-scroll');
+					popup.fadeOut();
+					notify.fadeIn();
+					setTimeout(function () {
+						notify.fadeOut();
+					}, 2000);
+				}
+			}, 'json');
+			return false;
+		}
+	});
+	// welcome
+	$.validate({
+		form : '#form-footer',
+		onSuccess: function() {
+			post_data = {
+				'name': $('#form-footer input[name=name]').val(), 
+				'email': $('#form-footer input[name=email]').val(),
+				'phone': $('#form-footer input[name=phone]').val(),
+				'comment': $('#form-footer textarea[name=comment]').val()
+			};
+			//Ajax post data to server
+			$.post('send.php', post_data, function(response){  
+				if (response.type == 'error') {}
+				else {
+					//reset values in all input fields
+					$('#form-footer').get(0).reset();
+					notify.fadeIn();
+					setTimeout(function () {
+						notify.fadeOut();
+					}, 2000);
+				}
+			}, 'json');
+			return false;
+		}
+	});
+}());
+
+
 	
 });

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Template</title>
+	<title>Emerald Palace Kempinski Hotel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="stylesheet" media="all" href="css/screen.css" >
@@ -36,8 +36,8 @@
 					<div class="header__right">
 						<!-- lang -->
 						<div class="lang">
-							<a href="#">eng</a>
-							<a href="#">рус</a>
+							<a href="index-eu.html">eng</a>
+							<a href="index.html">рус</a>
 						</div>
 						<!-- phone -->
 						<a class="phone" href="tel:+97144561060">+971-4-4561060</a>
@@ -309,36 +309,36 @@
 					</div>
 					<div class="footer__form">
 						<!-- form -->
-						<div class="form form_footer">
+						<form id="form-footer" class="form form_footer">
 							<div class="form__title">Получите эксклюзивное предложение</div>
 							<div class="form__in">
 								<!-- field -->
 								<div class="field">
 									<div class="field__in">
-										<input class="input" type="text" placeholder="Имя">
+										<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
 									</div>
 								</div>
 								<!-- field -->
 								<div class="field">
 									<div class="field__in">
-										<input class="input" type="text" placeholder="Email">
+										<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
 									</div>
 								</div>
 								<!-- field -->
 								<div class="field">
 									<div class="field__in">
-										<input class="input" type="text" placeholder="Тел">
+										<input class="input" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
 									</div>
 								</div>
 								<!-- field -->
 								<div class="field field_mb30">
 									<div class="field__in">
-										<textarea class="input input_area" placeholder="Комментарии"></textarea>
+										<textarea class="input input_area" name="comment" placeholder="Комментарии"></textarea>
 									</div>
 								</div>
 								<button class="btn btn_small btn_wide">ОТПРАВИТЬ</button>
 							</div>
-						</div>
+						</form>
 					</div>
 				</div>
 				<div class="footer__down">
@@ -361,30 +361,30 @@
 <div class="popup js-popup js-popup-welcome">
 	<div class="popup__in">
 		<!-- form -->
-		<div class="form">
+		<form id="form-welcome" class="form">
 			<div class="form__title">Сэкономьте время - <br>оставьте свои контакты <br>и мы свяжемся с Вами</div>
 			<div class="form__in">
 				<!-- field -->
 				<div class="field">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Имя">
+						<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
 					</div>
 				</div>
 				<!-- field -->
 				<div class="field">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Email">
+						<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
 					</div>
 				</div>
 				<!-- field -->
 				<div class="field field_mb30">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Тел">
+						<input class="input" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
 					</div>
 				</div>
-				<button class="btn btn_small btn_wide js-popup-close">продолжить</button>
+				<button class="btn btn_small btn_wide" type="submit">продолжить</button>
 			</div>
-		</div>
+		</form>
 	</div>
 </div>
 <!-- popup -->
@@ -392,36 +392,36 @@
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- form -->
-		<div class="form">
+		<form id="form-feedback" class="form">
 			<div class="form__title">Получите эксклюзивное <br>предложение</div>
 			<div class="form__in">
 				<!-- field -->
 				<div class="field">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Имя">
+						<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
 					</div>
 				</div>
 				<!-- field -->
 				<div class="field">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Email">
+						<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
 					</div>
 				</div>
 				<!-- field -->
 				<div class="field">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Тел">
+						<input class="input" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
 					</div>
 				</div>
 				<!-- field -->
 				<div class="field field_mb30">
 					<div class="field__in">
-						<textarea class="input input_area" placeholder="Комментарии"></textarea>
+						<textarea class="input input_area" name="comment" placeholder="Комментарии"></textarea>
 					</div>
 				</div>
 				<button class="btn btn_small btn_wide">ОТПРАВИТЬ</button>
 			</div>
-		</div>
+		</form>
 	</div>
 </div>
 <!-- popup -->
@@ -515,6 +515,21 @@
 	</div>
 </div>
 <!-- popup -->
+<div class="popup js-popup js-popup-content-developer">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Emerald Palace Group, являющаяся стратегическим партнером Kempinski S.A., входит в группу ассоциированных компаний, которая с 1996г. успешно осуществляет в качестве застройщика жилые и коммерческие проекты в Украине, ОАЭ и России.</p>
+			<p>Группа компаний завершила порядка 40 комплексных проектов, состоящих из более чем 10,000 жилых владений, общей площадью более миллиона квадратных метров и в настоящее время осуществляет строительство восьми проектов, а еще десять находятся на стадии разработки.</p>
+			<p>Проекты Группы в Дубаю включают:</p>
+			<p>• Резиденции Kempinski – Резиденции Kempinski, являющиеся частью роскошного курортного комплекса Гостиницы и Резиденции Emerald Palace Kempinski, представляют собой фешенебельный объект, состоящий из 244 апартаментов, частных таунхаусов, пентхаусов и королевских вилл общей площадью порядка 130,000 кв.м. Жители могут насладиться полным спектром гостиничного обслуживания, консьерж-сервисом и VIP услугами. Дополнительные средства обслуживания включают в себя доступ на частный пляж, роскошные рестораны, бары, залы для проведения мероприятий и многое другое. Три года подряд Проект был отмечен наградой Всемирной Организацией Туризма как “Лучший Пентхаус на Ближнем Востоке”.</p>
+			<p>• Kempinski Business Bay Hotel – это 5-звездочная гостиница категории люкс, расположенная возле озера в центре Business Bay, самом современном деловом районе Дубая, недалеко от знаковой башни Burj Khalifa, Гостиница Kempinski Business Bay на 260 номеров и номеров-люкс представит району Business Bay стиль и роскошь бренда Kempinski. Разработанная в современном стиле, Гостиница будет иметь изысканные рестораны и бары, СПА-салон и спортзал, а также все необходимое для первоклассного отдыха и бизнеса.</p>
+			<p>• Palm Jebel Ali Tower, Hotel and Residences – спроектированная на лучшем месте береговой линии полумесяца острова The Palm Jebel Ali и являющаяся одним из крупных проектов на острове, Palm Jebel Ali Tower будет пятизвездочной гостиницей и СПА курортом, состоящим из 450 гостиничных номеров и резидентских владений.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
 <div class="popup js-popup js-popup-content-mace">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
@@ -564,6 +579,8 @@
 		</div>
 	</div>
 </div>
+<!-- notify -->
+<div class="notify js-notify">Сообщение отправлено!</div>
 <!-- load scripts -->
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
