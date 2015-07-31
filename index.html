@@ -11,7 +11,7 @@
 <!-- wrapper -->
 <div class="wrapper">
 	<!-- main -->
-	<div class="main">
+	<div id="main" class="main">
 		<div class="main__video">
 			<video class="main__video-el" src="http://profdigital.com.ua/video/main.mp4" autoplay></video>
 		</div>
@@ -23,7 +23,7 @@
 					<!-- logo -->
 					<div class="logo"></div>
 					<!-- btn-menu -->
-					<button class="btn-menu">
+					<button class="btn-menu js-popup-enter" data-popup="js-popup-menu">
 						<span class="btn-menu__title">меню</span>
 						<i class="btn-menu__icon"></i>
 					</button>
@@ -43,7 +43,7 @@
 		</div>
 	</div>
 	<!-- blocks -->
-	<div class="blocks">
+	<div id="luxury" class="blocks">
 		<div class="blocks__wrap">
 			<div class="blocks__list">
 				<!-- block -->
@@ -125,15 +125,17 @@
 		</div>
 	</div>
 	<!-- map -->
-	<div class="map">
+	<div id="location" class="map">
 		<div class="map__data">
 			<div class="map__title">Расположение</div>
 			<div class="map__text">Emerald Palace Real Estate Broker Kempinski Residences & Hotel Apartments Palm Jumeirah - Ground Floor - PO Box 214991 Dubai - UAE</div>
 		</div>
-		<div id="map-canvas" class="map__canvas"></div>
+		<div class="map__wrap">
+			<div id="map-canvas" class="map__canvas"></div>
+		</div>
 	</div>
 	<!-- bg -->
-	<div class="bg bg_big">
+	<div id="finance" class="bg bg_big">
 		<!-- center -->
 		<div class="center center_middle">
 			<!-- finance -->
@@ -185,7 +187,7 @@
 				<div class="offer__wrap">
 					<div class="offer__in">
 						<div class="offer__title">эксклюзивное предложение</div>
-						<button class="btn">Получить</button>
+						<button class="btn js-popup-enter" data-popup="js-popup-feedback">Получить</button>
 					</div>
 				</div>
 				<!-- phone -->
@@ -194,7 +196,7 @@
 		</div>
 	</div>
 	<!-- builder -->
-	<div class="builder">
+	<div id="developer" class="builder">
 		<!-- center -->
 		<div class="center center_small">
 			<div class="builder__content">
@@ -277,7 +279,7 @@
 		</div>
 	</div>
 	<!-- bg -->
-	<div class="bg bg_bigger">
+	<div id="contacts" class="bg bg_bigger">
 		<!-- center -->
 		<div class="center center_small">
 			<!-- footer -->
@@ -349,6 +351,118 @@
 		</div>
 	</div>
 </div>
+<!-- popup -->
+<div class="popup js-popup js-popup-welcome" style="display: block;">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- form -->
+		<div class="form">
+			<div class="form__title">Сэкономьте время - <br>оставьте свои контакты <br>и мы свяжемся с Вами</div>
+			<div class="form__in">
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" placeholder="Имя">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" placeholder="Email Address">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field field_mb30">
+					<div class="field__in">
+						<input class="input" type="text" placeholder="Тел">
+					</div>
+				</div>
+				<button class="btn btn_small btn_wide">ОТПРАВИТЬ</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-feedback">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- form -->
+		<div class="form">
+			<div class="form__title">Получите эксклюзивное <br>предложение</div>
+			<div class="form__in">
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" placeholder="Имя">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" placeholder="Email Address">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" placeholder="Тел">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field field_mb30">
+					<div class="field__in">
+						<textarea class="input input_area" placeholder="Комментарии"></textarea>
+					</div>
+				</div>
+				<button class="btn btn_small btn_wide">ОТПРАВИТЬ</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup popup_menu js-popup js-popup-menu">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- menu -->
+		<div class="menu">
+			<div class="menu__title">МЕНЮ</div>
+			<div class="menu__list">
+				<a class="btn js-popup-close" href="#main">ГЛАВНАЯ</a>
+				<a class="btn js-popup-close" href="#luxury">МИР РОСКОШИ</a>
+				<a class="btn js-popup-close" href="#location">РАсположение</a>
+				<a class="btn js-popup-close" href="#finance">финансовый актив</a>
+				<a class="btn js-popup-close" href="#developer">Застройщик</a>
+				<a class="btn js-popup-close" href="#contacts">Контакты</a>
+			</div>
+		</div>
+		<!-- offer -->
+		<div class="offer">
+			<div class="offer__wrap">
+				<div class="offer__in">
+					<div class="offer__title">эксклюзивное предложение</div>
+					<button class="btn js-popup-enter" data-popup="js-popup-feedback">Получить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup popup_gallery js-popup js-popup-gallery-1">
+	<button class="popup__close js-popup-close"></button>
+	<!-- slider -->
+	<div class="slider js-sl">
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_01.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_02.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_03.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_04.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_05.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_06.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_07.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_08.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_09.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_10.jpg)"></div>
+	</div>
+</div>
 <!-- load scripts -->
 <script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
@@ -360,7 +474,8 @@
 		var mapOptions = {
 			zoom: 13,
 			center: posCenter,
-			scrollwheel: false
+			scrollwheel: false,
+			draggable: false
 		}
 		var image = 'img/marker.png';
 		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
