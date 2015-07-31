@@ -300,6 +300,9 @@ a { text-decoration: none; color: #ffba00; }
 @media only screen and (max-width: 760px) { .slider .slick-next { right: 0; } }
 .slider .slick-next:before { width: 0px; height: 0px; border-style: solid; border-width: 21px 0 21px 36px; border-color: transparent transparent transparent white; }
 
+.content { max-width: 800px; padding: 40px; background: url(../img/bg.jpg) no-repeat 50% 50%/cover; border: 4px solid #5e6979; color: white; text-align: left; font-size: 18px; }
+@media only screen and (max-width: 760px) { .content { padding: 20px; } }
+
 .slick-slider { position: relative; display: block; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; -ms-touch-action: pan-y; touch-action: pan-y; -webkit-tap-highlight-color: transparent; }
 
 .slick-list { position: relative; overflow: hidden; display: block; margin: 0; padding: 0; }
