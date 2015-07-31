@@ -73,7 +73,7 @@ a
 	&.center_middle
 		max-width: 1220px
 	&.center_small
-		max-width: 1000px
+		max-width: 1040px
 
 .main
 	position: relative
@@ -113,9 +113,9 @@ a
 	.main__title-sub
 		text-transform: uppercase
 		text-align: center
-		line-height: 1
+		line-height: 1.1
 	.main__title
-		font-size: 98px
+		font-size: 100px
 		color: $yellow
 		+r(1020)
 			margin-bottom: 5px
@@ -123,7 +123,7 @@ a
 		+r(760)
 			font-size: 32px
 	.main__title-sub
-		font-size: 48px
+		font-size: 50px
 		color: #ffdf8a	
 		+r(1020)
 			font-size: 38px
@@ -131,7 +131,7 @@ a
 			font-size: 18px
 
 .header
-	margin-bottom: 180px
+	margin-bottom: 160px
 	+clr
 	+r(1020)
 		margin-bottom: 80px
@@ -218,54 +218,80 @@ a
 
 .block
 	display: inline-block
+	position: relative
 	vertical-align: top
+	+r(1020)
+		background: #354154
+	+r(760)
+		width: 100%
+	&.block_gallery
+		.block__pic
+			&:hover
+				cursor: url(../img/search.png), pointer
 	&.block_1,
 	&.block_4
 		float: left
 		width: 732px
 		text-align: right
-	&.block_1
 		+r(1020)
-			float: none
 			width: 100%
 	&.block_2,
 	&.block_3,
 	&.block_5
 		float: left
 		width: 548px
-		+r(1020)
-			display: inline-block
-			float: none
-			width: auto
-			vertical-align: top
-	&.block_3
-		height: 340px
-		+r(760)
-			height: auto
 	&.block_4
 		margin-top: -112px
-		+r(1020)	
-			float: none
-			display: inline-block
-			width: auto
+		+r(1020)
 			margin: 0
-			vertical-align: top
 	&.block_6,
 	&.block_8
 		float: left
 		width: 369px
-	&.block_6
-		+r(1020)
-			float: none
-			width: auto
-			height: 413px
 	&.block_7
 		float: left
-		+r(1020)
-			float: none
 	&.block_8
 		+r(1020)
 			display: none
+	&.block_2,
+	&.block_3,
+	&.block_4,
+	&.block_5,
+	&.block_6
+		+r(1020)
+			width: 20%
+			height: auto
+			&:before
+				content: ""
+				display: block
+				width: 100%
+				padding-bottom: 100%
+			.block__pic
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				img
+					position: absolute
+					top: 50%
+					left: 50%
+					width: auto
+					min-width: 100%
+					height: auto
+					min-height: 100%
+					+translate(-50%,-50%)
+		+r(760)
+			width: 25%
+		+r(640)
+			width: 50%
+		+r(480)
+			width: 100%
+	&.block_6
+		+r(760)
+			display: none
+		+r(480)
+			display: block
 	.block__content
 		display: inline-block
 		max-width: 542px
@@ -301,6 +327,11 @@ a
 		height: 100%
 		font-size: 0
 		vertical-align: top
+		+r(760)
+			width: 100%
+			img
+				width: 100%
+				height: auto
 		img
 			max-width: 100%
 			max-height: 100%
@@ -798,6 +829,9 @@ a
 			position: relative
 			top: -32px
 			margin-bottom: 5px
+			padding: 0 40px
+			+r(1020)
+				padding: 0 20px
 			+r(760)
 				top: auto
 				margin-bottom: 25px
@@ -964,6 +998,8 @@ a
 	font-size: 18px 
 	+r(760)
 		padding: 20px
+	p
+		margin-bottom: 10px
 
 
 

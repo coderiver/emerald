@@ -13,7 +13,13 @@
 	<!-- main -->
 	<div id="main" class="main">
 		<div class="main__video">
-			<video class="main__video-el" src="http://profdigital.com.ua/video/main.mp4" autoplay></video>
+			<!-- <video class="main__video-el" src="http://profdigital.com.ua/video/main.mp4" autoplay></video> -->
+			<video class="main__video-el" autoplay="autoplay" title="video" loop="loop">
+				<source src="video/video.m4v" type="video/mp4" />
+				<source src="video/video.webm" type="video/webm" />
+				<source src="video/video.ogv" type="video/ogg" />
+				<source src="video/video.mp4" />
+			</video>
 		</div>
 		<div class="main__in">
 			<!-- center -->
@@ -56,7 +62,7 @@
 							<p>Впечатляющая гостиница Emerald Palace Kempinski Hotel с площадью в 100,000 кв.м. состоит из 347 роскошных номеров, 36 из которых являются номерами-люкс.</p>
 						</div>
 						<div class="block__more">
-							<a class="js-popup-enter" data-popup="js-popup-content-1" href="#">Подробнее...</a>
+							<a class="js-popup-enter" data-popup="js-popup-content-luxury" href="#">Подробнее...</a>
 						</div>
 					</div>
 				</div>
@@ -101,7 +107,7 @@
 							<p>Вся мебель изготовлена в Италии с соблюдением богатых традиций изготовления классической мебели.</p>
 						</div>
 						<div class="block__more">
-							<a class="js-popup-enter" data-popup="js-popup-content-2" href="#">Подробнее...</a>
+							<a class="js-popup-enter" data-popup="js-popup-content-interior" href="#">Подробнее...</a>
 						</div>
 					</div>
 				</div>
@@ -120,7 +126,7 @@
 		<div class="center">
 			<!-- more -->
 			<div class="more">
-				<a class="btn btn_dark" href="#">Детальнее на сайте</a>
+				<a class="btn btn_dark" href="http://emeraldpalacere.com/rus/">Детальнее на сайте</a>
 			</div>
 		</div>
 	</div>
@@ -179,7 +185,7 @@
 					</div>
 				</div>
 				<div class="finance__more">
-					<a class="btn btn_dark" href="#">ПОДРОБНЕЙ</a>
+					<a class="btn btn_dark js-popup-enter" data-popup="js-popup-content-finance" href="#">ПОДРОБНЕЙ</a>
 				</div>
 			</div>
 			<!-- offer -->
@@ -206,7 +212,7 @@
 					<p>Группа компаний завершила порядка 40 комплексных проектов, состоящих из более чем 10,000 жилых владений, общей площадью более миллиона квадратных метров и в настоящее время осуществляет строительство восьми проектов, а еще десять находятся на стадии разработки.</p>
 				</div>
 				<div class="builder__more">
-					<a class="js-popup-enter" data-popup="js-popup-content-3" href="#">Подробнее...</a>
+					<a class="js-popup-enter" data-popup="js-popup-content-developer" href="#">Подробнее...</a>
 				</div>
 			</div>
 			<div class="builder__logos">
@@ -232,7 +238,7 @@
 					<div class="partners__item-title">Mace International</div>
 					<div class="partners__position">Управляющий проектом</div>
 					<div class="partners__more">
-						<a class="js-popup-enter" data-popup="js-popup-content-4" href="#">Подробнее...</a>
+						<a class="js-popup-enter" data-popup="js-popup-content-mace" href="#">Подробнее...</a>
 					</div>
 				</div>
 				<div class="partners__item">
@@ -242,7 +248,7 @@
 					<div class="partners__item-title">Hyder consulting</div>
 					<div class="partners__position">Архитектор/инженер проекта</div>
 					<div class="partners__more">
-						<a class="js-popup-enter" data-popup="js-popup-content-5" href="#">Подробнее...</a>
+						<a class="js-popup-enter" data-popup="js-popup-content-hyder" href="#">Подробнее...</a>
 					</div>
 				</div>
 				<div class="partners__item">
@@ -252,7 +258,7 @@
 					<div class="partners__item-title">W.S.atkins overseas</div>
 					<div class="partners__position">Проектно-дизайнерская группа</div>
 					<div class="partners__more">
-						<a class="js-popup-enter" data-popup="js-popup-content-6" href="#">Подробнее...</a>
+						<a class="js-popup-enter" data-popup="js-popup-content-atkins" href="#">Подробнее...</a>
 					</div>
 				</div>
 				<div class="partners__item">
@@ -262,7 +268,7 @@
 					<div class="partners__item-title">Leo international</div>
 					<div class="partners__position">Консультант по дизайну интерьера</div>
 					<div class="partners__more">
-						<a class="js-popup-enter" data-popup="js-popup-content-7" href="#">Подробнее...</a>
+						<a class="js-popup-enter" data-popup="js-popup-content-leointer" href="#">Подробнее...</a>
 					</div>
 				</div>
 				<div class="partners__item">
@@ -272,7 +278,7 @@
 					<div class="partners__item-title">Francesco molon</div>
 					<div class="partners__position">Производитель мебели</div>
 					<div class="partners__more">
-						<a class="js-popup-enter" data-popup="js-popup-content-8" href="#">Подробнее...</a>
+						<a class="js-popup-enter" data-popup="js-popup-content-molon" href="#">Подробнее...</a>
 					</div>
 				</div>
 			</div>
@@ -315,7 +321,7 @@
 								<!-- field -->
 								<div class="field">
 									<div class="field__in">
-										<input class="input" type="text" placeholder="Email Address">
+										<input class="input" type="text" placeholder="Email">
 									</div>
 								</div>
 								<!-- field -->
@@ -354,7 +360,6 @@
 <!-- popup -->
 <div class="popup js-popup js-popup-welcome">
 	<div class="popup__in">
-		<button class="popup__close js-popup-close"></button>
 		<!-- form -->
 		<div class="form">
 			<div class="form__title">Сэкономьте время - <br>оставьте свои контакты <br>и мы свяжемся с Вами</div>
@@ -368,7 +373,7 @@
 				<!-- field -->
 				<div class="field">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Email Address">
+						<input class="input" type="text" placeholder="Email">
 					</div>
 				</div>
 				<!-- field -->
@@ -377,7 +382,7 @@
 						<input class="input" type="text" placeholder="Тел">
 					</div>
 				</div>
-				<button class="btn btn_small btn_wide">ОТПРАВИТЬ</button>
+				<button class="btn btn_small btn_wide js-popup-close">продолжить</button>
 			</div>
 		</div>
 	</div>
@@ -399,7 +404,7 @@
 				<!-- field -->
 				<div class="field">
 					<div class="field__in">
-						<input class="input" type="text" placeholder="Email Address">
+						<input class="input" type="text" placeholder="Email">
 					</div>
 				</div>
 				<!-- field -->
@@ -464,86 +469,98 @@
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-content-1">
+<div class="popup js-popup js-popup-content-luxury">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- content -->
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda voluptas ipsa, a tempore omnis repellat, consequuntur, optio quae quis ea recusandae maiores beatae fugiat nobis similique exercitationem in possimus?</p>
-			<p>Fugit, est. Architecto in, veritatis odio, dicta tenetur deleniti dolorem nihil fugiat mollitia ratione laudantium quas debitis pariatur officiis iste expedita minima. Atque repellat aliquam quos eum, assumenda minus esse.</p>
-			<p>Quibusdam illo dolorem, aliquam saepe cupiditate error accusantium illum vitae, sapiente inventore aut quod natus assumenda possimus temporibus ullam iure dolores, consequatur distinctio officia explicabo suscipit optio molestias libero. Beatae.</p>
+			<p>Впечатляющая гостиница Emerald Palace Kempinski Hotel с площадью в 100,000 кв.м. состоит из 347 роскошных номеров, 36 из которых являются номерами-люкс. Восемь королевских вилл, окруженные безупречным ландшафтными тропическими садами, имеют ошеломляющий вид на лагуну острова Palm Jumeirah.</p>
+			<p>Широкое разнообразие международных ресторанов, фирменных магазинов и кинотеатра в гостинице обеспечивают богатый выбор кулинарных изысков и иных развлечений.</p>
+			<p>Гости могут насладиться различными водными видами спорта, такими как подводное плавание, парусный спорт, прогулки на яхте и рыбалка в Персидском заливе. Йога, пилатес и игры с мячом также доступны в детском и подростковом клубах.</p>
+			<p>Наконец, что не менее важно, гостиница также обладает первоклассным бизнес центром и конференц-залами, что делает ее ещё привлекательнее не только для отдыхающих туристов, но также для корпоративных и деловых посетителей.</p>
+			<p>Гостиница выгодно отличается своим великолепным дизайном и королевским интерьером.</p>
+			<p>Гостиница выгодно отличается своим великолепным дизайном и королевским интерьером. Вдохновленная XVIII веком континентальной Европы, известная компания-дизайнер, Leo International, разработала интерьер Emerald Palace Kempinski Hotel так, чтобы отразить величественную эру Людовика XV, добавив при этом современный оттенок, привлекающий самых взыскательных гостей.</p>
+			<p>Хрустальные люстры, мрамор и дерево, покрытое сусальным золотом или серебром, с богатой драпировкой, изящными цветовыми схемами и просторными территориями должным образом восхваляют роскошный образ жизни.</p>
+			<p>Классический дизайн гостиницы присутствует также и в Резиденциях и Гостиничных Апартаментах Kempinski Palm Jumeirah, построенных в таком же архитектурном стиле и расположенных на соседнем участке.</p>
 		</div>
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-content-2">
+<div class="popup js-popup js-popup-content-interior">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- content -->
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda voluptas ipsa, a tempore omnis repellat, consequuntur, optio quae quis ea recusandae maiores beatae fugiat nobis similique exercitationem in possimus?</p>
-			<p>Fugit, est. Architecto in, veritatis odio, dicta tenetur deleniti dolorem nihil fugiat mollitia ratione laudantium quas debitis pariatur officiis iste expedita minima. Atque repellat aliquam quos eum, assumenda minus esse.</p>
-			<p>Quibusdam illo dolorem, aliquam saepe cupiditate error accusantium illum vitae, sapiente inventore aut quod natus assumenda possimus temporibus ullam iure dolores, consequatur distinctio officia explicabo suscipit optio molestias libero. Beatae.</p>
+			<p>Средняя площадь номера в гостинице Emerald Palace Kempinksi Hotel составляет более чем 100 кв.м. и обставлен мебелью ручной работы, изготовленной на заказ в лучших традициях итальянских мастеров, всемирно известной компанией “Франческо Молон”. Интерьер дизайнеры от “Франческо Молон” в тесном сотрудничестве с дизайнерской группой от Leo International создали  чрезвычайное впечатляющее оформление в этой шикарной гостинице. Вся мебель изготовлена в Италии с соблюдением богатых традиции изготовления классической мебели.</p>
+			<p>Занавеси, драпировки, хрустальные люстры, ковры и полированные мраморные покрытия – все тщательно подобрано для  создания атмосферу элегантности и роскоши.</p>
+			<p>Пышные драпировки, белье, изысканная столовая посуда и  хрусталь наилучшим образом дополняют интерьер, а такие известные бренды производителей аксессуаров, как Villeroy &amp; Boch и Grohe, добавляют финальные штрихи ванным комнатам.</p>
 		</div>
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-content-3">
+<div class="popup js-popup js-popup-content-finance">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- content -->
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda voluptas ipsa, a tempore omnis repellat, consequuntur, optio quae quis ea recusandae maiores beatae fugiat nobis similique exercitationem in possimus?</p>
-			<p>Fugit, est. Architecto in, veritatis odio, dicta tenetur deleniti dolorem nihil fugiat mollitia ratione laudantium quas debitis pariatur officiis iste expedita minima. Atque repellat aliquam quos eum, assumenda minus esse.</p>
-			<p>Quibusdam illo dolorem, aliquam saepe cupiditate error accusantium illum vitae, sapiente inventore aut quod natus assumenda possimus temporibus ullam iure dolores, consequatur distinctio officia explicabo suscipit optio molestias libero. Beatae.</p>
+			<p>Программа инвестиций в гостиничные номера Emerald Palace Kempinski Hotel Palm Jumeirah дает уникальную возможность осуществления надежной инвестиции, гарантирующей стабильный доход с огромным потенциалом роста.</p>
+			<p>Схема осуществления инвестиции:</p>
+			<p><strong>Sunrise Properties Ltd. (Продавец)</strong>, являющаяся 100% дочерней компанией EPG Ltd., продает Гостиничный номер индивидуальному Покупателю на правах полной собственности, c последующей выдачей зарегистрированного государством правового титула.</p>
+			<p>После приобретения Гостиничного номера Покупатель сдает его в аренду оперирующей компании (100% дочерней компанией EPG Ltd.), которая является 100% дочерней компанией EPG Ltd., будет управлять активами и выступать в качестве Арендатора и Оператора в Emerald Palace Kempinski Hotel Palm Jumeirah.</p>
+			<p>Компания Kempinski S.A. будет управлять Арендатором и Оператором на основании действующего долгосрочного Договору об Управлении Гостиницей.</p>
+			<p>Арендатор и Оператор также берет в аренду все другие средства обслуживания гостиницы, такие как объекты F&B, СПА салон, спортзал, пляжный клуб, детский клуб и все установки, необходимые для обеспечения целостности объекта недвижимости в связи с его управлением. Арендатор и Оператор будет оперировать гостиницей как единым целым и получит лицензию от Департамента Туризма и Коммерческого Маркетинга Дубая (DTCM), а также иные необходимые разрешения и лицензии соответствующих полномочных органов.</p>
+			<p>40% от всего дохода, полученного от оперирования всех гостиничных номеров, формирует единый фонд, из которого индивидуальному Покупателю полагается пропорциональная доля, равная соотношению площади приобретенного им Гостиничного номера к общей площади всех гостиничных номеров. При этом Покупатель не несет никаких расходов связанных с содержанием, обслуживанием, ремонтом или оперированием своего Гостиничного номера.</p>
+			<p><strong>Арендатор и Оператор</strong> под управлением Kempinski S.A. на ежеквартальной основе будет осуществлять причитающуюся выплату арендой платы напрямую Покупателю, а также предоставит свою ежеквартальную отчетность и ежегодный аудиторский отчет, подготовленный одной из компаний Большой Четверки. Собственники гостиничных номеров в Emerald Palace Kempinski Hotel Palm Jumeirah смогут провести 14 бесплатных ночей в году и пользоваться особыми привилегиями членов клуба Emerald Palace Club.</p>
 		</div>
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-content-4">
+<div class="popup js-popup js-popup-content-mace">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- content -->
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda voluptas ipsa, a tempore omnis repellat, consequuntur, optio quae quis ea recusandae maiores beatae fugiat nobis similique exercitationem in possimus?</p>
-			<p>Fugit, est. Architecto in, veritatis odio, dicta tenetur deleniti dolorem nihil fugiat mollitia ratione laudantium quas debitis pariatur officiis iste expedita minima. Atque repellat aliquam quos eum, assumenda minus esse.</p>
-			<p>Quibusdam illo dolorem, aliquam saepe cupiditate error accusantium illum vitae, sapiente inventore aut quod natus assumenda possimus temporibus ullam iure dolores, consequatur distinctio officia explicabo suscipit optio molestias libero. Beatae.</p>
+			<p>Эта знаменитая британская компания по управлению проектами работала по самым известным гостиничным проектам мира, проектам аэропортов и другим проектам комплексного строительства. Портфолио компании включает такие гостиницы как Venetian в Макао, London's Great Nothern, the Cumberland Hotel, проекты реконструкции The Shard, Savoy и пятого терминала лондонского аэропорта Хитроу, а также исторические гостиницы Shangri-la в Париже и комплекс Überseequartier в районе Hafencity Гамбурга и т.д.</p>
 		</div>
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-content-5">
+<div class="popup js-popup js-popup-content-hyder">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- content -->
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda voluptas ipsa, a tempore omnis repellat, consequuntur, optio quae quis ea recusandae maiores beatae fugiat nobis similique exercitationem in possimus?</p>
-			<p>Fugit, est. Architecto in, veritatis odio, dicta tenetur deleniti dolorem nihil fugiat mollitia ratione laudantium quas debitis pariatur officiis iste expedita minima. Atque repellat aliquam quos eum, assumenda minus esse.</p>
-			<p>Quibusdam illo dolorem, aliquam saepe cupiditate error accusantium illum vitae, sapiente inventore aut quod natus assumenda possimus temporibus ullam iure dolores, consequatur distinctio officia explicabo suscipit optio molestias libero. Beatae.</p>
+			<p>Hyder Consulting является британской архитектурно-консалтинговой компанией, завоевавшей признание за осуществление ряда самых знаковых в мире зданий и построений, таких как Sydney Harbour Bridge, Tower Bridge в Лондоне и самое высокое здание в мире, Burj Khalifa в Дубае и многие другие.</p>
 		</div>
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-content-6">
+<div class="popup js-popup js-popup-content-atkins">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- content -->
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda voluptas ipsa, a tempore omnis repellat, consequuntur, optio quae quis ea recusandae maiores beatae fugiat nobis similique exercitationem in possimus?</p>
-			<p>Fugit, est. Architecto in, veritatis odio, dicta tenetur deleniti dolorem nihil fugiat mollitia ratione laudantium quas debitis pariatur officiis iste expedita minima. Atque repellat aliquam quos eum, assumenda minus esse.</p>
-			<p>Quibusdam illo dolorem, aliquam saepe cupiditate error accusantium illum vitae, sapiente inventore aut quod natus assumenda possimus temporibus ullam iure dolores, consequatur distinctio officia explicabo suscipit optio molestias libero. Beatae.</p>
+			<p>Британская компания, осуществляющая инженерные работы, работы по дизайну, планированию и управлению проектами, которая успешно работала по крупным проектам в более чем 150 странах мира. Cреди самых крупных проектов компании W.S. Atkins такие, как гостиница Burj Al Arab, гостиница The Address в районе Downtown Dubai и Олимпийский парк Игр 2012 года в Лондоне.</p>
 		</div>
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-content-7">
+<div class="popup js-popup js-popup-content-leointer">
 	<div class="popup__in">
 		<button class="popup__close js-popup-close"></button>
 		<!-- content -->
 		<div class="content">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam assumenda voluptas ipsa, a tempore omnis repellat, consequuntur, optio quae quis ea recusandae maiores beatae fugiat nobis similique exercitationem in possimus?</p>
-			<p>Fugit, est. Architecto in, veritatis odio, dicta tenetur deleniti dolorem nihil fugiat mollitia ratione laudantium quas debitis pariatur officiis iste expedita minima. Atque repellat aliquam quos eum, assumenda minus esse.</p>
-			<p>Quibusdam illo dolorem, aliquam saepe cupiditate error accusantium illum vitae, sapiente inventore aut quod natus assumenda possimus temporibus ullam iure dolores, consequatur distinctio officia explicabo suscipit optio molestias libero. Beatae.</p>
+			<p>Эта профессиональная компания-дизайнер из Таиланда, которая осуществила 15 проектов для Kempinski, королевские дворцы и многие другие роскошные объекты. Компания также полностью разработала дизайн интерьера такой знаменитой гостиницы, как Emirates Palace Hotel в Абу-Даби.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-molon">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Эта всемирно известная итальянская компания по производству классической мебели, которая обставила своей продукцией ряд роскошных гостиниц, таких как Grand Hyatt Erawan в Бангкоке, Four Seasons Hotel в Берлине, Breaker’s Hotel на Palm Beach, гостиница St. Regis в Риме и т.д. Изысканной мебелью от Francesco Molon обставлены также Кремль, частные дворцы и множество крупнейших офисов по всему миру.</p>
 		</div>
 	</div>
 </div>
@@ -553,13 +570,14 @@
 <script>
 	var map;
 	function initialize() {
-		var posCenter = new google.maps.LatLng(25.119210, 55.122577),
+		var isDraggable = $(document).width() > 1024 ? true : false;
+			posCenter = new google.maps.LatLng(25.119210, 55.122577),
 			posMarker = new google.maps.LatLng(25.1160, 55.110);
 		var mapOptions = {
 			zoom: 13,
 			center: posCenter,
 			scrollwheel: false,
-			draggable: false
+			draggable: isDraggable
 		}
 		var image = 'img/marker.png';
 		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
