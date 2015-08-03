@@ -35,7 +35,16 @@ head.ready(function() {
 	});
 	// welcome
 	setTimeout(function () {
-		welcome.fadeIn();
+		// localstorage
+		if (typeof(Storage) !== 'undefine') {
+		    var status = localStorage.getItem('validate');
+		    console.log(status);
+		    if (!status == 'yes' || status == null) {
+		    	welcome.fadeIn();
+		    };
+		} else {
+		    // Sorry! No Web Storage support..
+		}
 	}, 1000);
 }());
 
@@ -67,10 +76,17 @@ head.ready(function() {
 					}, 2000);
 				}
 			}, 'json');
+			// localstorage
+			if (typeof(Storage) !== 'undefined') {
+				// Store
+				localStorage.setItem('validate', 'yes');
+			} else {
+				// Sorry! No Web Storage support..
+			}
 			return false;
 		}
 	});
-	// welcome
+	// feedback
 	$.validate({
 		form : '#form-feedback',
 		onSuccess: function() {
@@ -97,7 +113,7 @@ head.ready(function() {
 			return false;
 		}
 	});
-	// welcome
+	// footer
 	$.validate({
 		form : '#form-footer',
 		onSuccess: function() {
