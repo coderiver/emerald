@@ -14,12 +14,10 @@
 	<!-- main -->
 	<div id="main" class="main">
 		<div class="main__video">
-			<!-- <video class="main__video-el" src="http://profdigital.com.ua/video/main.mp4" autoplay></video> -->
 			<video class="main__video-el" autoplay="autoplay" title="video" loop="loop">
-				<source src="video/video.m4v" type="video/mp4" />
 				<source src="video/video.webm" type="video/webm" />
+				<source src="video/video.mp4" type="video/mp4" />
 				<source src="video/video.ogv" type="video/ogg" />
-				<source src="video/video.mp4" />
 			</video>
 		</div>
 		<div class="main__in">
@@ -359,33 +357,35 @@
 	</div>
 </div>
 <!-- popup -->
-<div class="popup js-popup js-popup-welcome">
-	<div class="popup__in">
-		<!-- form -->
-		<form id="form-welcome" class="form">
-			<div class="form__title">Сэкономьте время - <br>оставьте свои контакты <br>и мы свяжемся с Вами</div>
-			<div class="form__in">
-				<!-- field -->
-				<div class="field">
-					<div class="field__in">
-						<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
+<div class="div" hidden>
+	<div class="popup js-popup js-popup-welcome">
+		<div class="popup__in">
+			<!-- form -->
+			<form id="form-welcome" class="form">
+				<div class="form__title">Сэкономьте время - <br>оставьте свои контакты <br>и мы свяжемся с Вами</div>
+				<div class="form__in">
+					<!-- field -->
+					<div class="field">
+						<div class="field__in">
+							<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
+						</div>
 					</div>
-				</div>
-				<!-- field -->
-				<div class="field">
-					<div class="field__in">
-						<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
+					<!-- field -->
+					<div class="field">
+						<div class="field__in">
+							<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
+						</div>
 					</div>
-				</div>
-				<!-- field -->
-				<div class="field field_mb30">
-					<div class="field__in">
-						<input class="input" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
+					<!-- field -->
+					<div class="field field_mb30">
+						<div class="field__in">
+							<input class="input" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
+						</div>
 					</div>
+					<button class="btn btn_small btn_wide" type="submit">продолжить</button>
 				</div>
-				<button class="btn btn_small btn_wide" type="submit">продолжить</button>
-			</div>
-		</form>
+			</form>
+		</div>
 	</div>
 </div>
 <!-- popup -->

@@ -38,11 +38,12 @@ a { text-decoration: none; color: #ffba00; }
 .center.center_middle { max-width: 1220px; }
 .center.center_small { max-width: 1040px; }
 
-.main { position: relative; height: 750px; overflow: hidden; }
+.main { position: relative; height: 750px; background: url(../img/bg-video.jpg) 50% 50%/cover; overflow: hidden; }
 @media only screen and (max-width: 1020px) { .main { height: 480px; } }
-.main .main__video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: black; }
+.main .main__video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .main .main__video:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url(../img/bg-overlay.png) no-repeat 50% 50%/cover; }
 .main .main__video-el { position: absolute; top: 0; left: 50%; min-width: 100%; min-height: 100%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
+@media only screen and (max-width: 760px) { .main .main__video-el { display: none; } }
 .main .main__in { position: relative; padding-top: 75px; z-index: 2; }
 @media only screen and (max-width: 1020px) { .main .main__in { padding-top: 30px; } }
 .main .main__title, .main .main__title-sub { text-transform: uppercase; text-align: center; line-height: 1.1; }
