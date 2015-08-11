@@ -11,8 +11,8 @@ head.ready(function() {
 	enter.on('click', function () {
 		var _this = $(this),
 			el = _this.data('popup');
-		popup.fadeOut();
-		$('.' + el).fadeIn();
+		popup.fadeOut(200);
+		$('.' + el).fadeIn(200);
 		body.addClass('no-scroll');
 		// gallery
 		if (el == 'js-popup-gallery') {
@@ -30,7 +30,7 @@ head.ready(function() {
 		return false;
 	});
 	close.on('click', function () {
-		popup.fadeOut();
+		popup.fadeOut(200);
 		body.removeClass('no-scroll');
 	});
 	// welcome

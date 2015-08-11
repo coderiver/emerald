@@ -200,23 +200,35 @@ a
 			margin: 0
 
 .blocks
-	position: relative
-	margin-top: -75px
-	padding-bottom: 36%
-	background: url(../img/bg1.jpg) no-repeat 50% 100% / 100% auto
-	overflow: hidden
-	+r(760)
-		margin: 0
-	.blocks__wrap
-		margin: 0 -200px
-		+r(1020)
-			margin: 0
-			font-size: 0
-			text-align: center
+	padding-bottom: 32%
+	background: url(../img/bg1.jpg) no-repeat 50% 100% / 100% auto, url(../img/bg-big.jpg) 50% 0
 	.blocks__list
-		max-width: 1280px
-		margin: 0 auto
+		position: relative
 		overflow: hidden
+		z-index: 2 
+	.center
+		position: relative
+		margin-top: -75px
+		+r(1400)
+			max-width: 950px
+		+r(1020)
+			max-width: 100%
+			padding: 0
+		&:before,
+		&:after
+			content: ""
+			position: absolute
+			top: 0
+			width: 53px
+			height: 1298px
+			+r(1020)
+				display: none
+		&:before
+			left: -25px
+			background: url(../img/shadow-left.png) no-repeat 0 0 
+		&:after
+			right: -25px
+			background: url(../img/shadow-right.png) no-repeat 0 0 
 
 .block
 	display: inline-block
@@ -235,39 +247,62 @@ a
 		.block__pic
 			&:hover
 				cursor: url(../img/search.png), pointer
-	&.block_1,
-	&.block_4
+	&.block_1
 		float: left
-		width: 732px
-		text-align: right
+		width: 540px
 		+r(1020)
 			width: 100%
-	&.block_2,
-	&.block_3,
-	&.block_5
+	&.block_2
 		float: left
-		width: 548px
+		width: 740px
+		+r(1400) 
+			width: 370px
+	&.block_3
+		float: left
+		width: 370px
 	&.block_4
-		margin-top: -112px
-		+r(1020)
-			margin: 0
-	&.block_6,
-	&.block_8
 		float: left
-		width: 369px
+		width: 370px
+	&.block_5
+		+r(1400)
+			height: 472px
+		+r(1020)
+			display: none
+	&.block_6
+		float: left
+		width: 740px
+		+r(1400)
+			width: 540px
 	&.block_7
 		float: left
+		width: 369px
+		+r(1400)
+			float: right
+			width: 370px
+		+r(1020)
+			display: none
 	&.block_8
+		float: left
+		+r(1400)
+			width: 540px
+			height: 638px
+		+r(1020)
+			width: 100%
+			height: auto
+	&.block_9
+		float: left
+		width: 369px
+		+r(1400)
+			width: 370px
 		+r(1020)
 			display: none
 	&.block_2,
 	&.block_3,
 	&.block_4,
-	&.block_5,
 	&.block_6
 		+r(1020)
-			width: 20%
-			height: auto
+			float: left
+			width: 25%
 			&:before
 				content: ""
 				display: block
@@ -277,28 +312,17 @@ a
 				position: absolute
 				top: 0
 				left: 0
-				width: 100%
-				height: 100%
+				right: 0
+				bottom: 0
 				img
 					position: absolute
-					top: 50%
+					top: 0
 					left: 50%
 					width: auto
-					min-width: 100%
-					height: auto
-					min-height: 100%
-					+translate(-50%,-50%)
-		+r(760)
-			width: 25%
-		+r(640)
+					height: 100%
+					+translateX(-50%)
+		+r(630)
 			width: 50%
-		+r(480)
-			width: 100%
-	&.block_6
-		+r(760)
-			display: none
-		+r(480)
-			display: block
 	.block__content
 		display: inline-block
 		max-width: 542px
@@ -322,7 +346,7 @@ a
 		font-size: 18px
 		font-weight: 300 
 		p
-			margin-bottom: 25px
+			margin-bottom: 23px
 	.block__more
 		font-size: 18px
 		a
@@ -334,14 +358,7 @@ a
 		height: 100%
 		font-size: 0
 		vertical-align: top
-		+r(760)
-			width: 100%
-			img
-				width: 100%
-				height: auto
 		img
-			max-width: 100%
-			max-height: 100%
 			+tr(transform .2s)
 
 .more
