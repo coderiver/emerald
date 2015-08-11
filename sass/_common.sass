@@ -283,12 +283,17 @@ a
 			display: none
 	&.block_8
 		float: left
+		width: 542px
 		+r(1400)
 			width: 540px
 			height: 638px
 		+r(1020)
 			width: 100%
 			height: auto
+		.block__content
+			height: 638px
+			+r(1020)
+				height: auto
 	&.block_9
 		float: left
 		width: 369px
@@ -324,18 +329,15 @@ a
 		+r(630)
 			width: 50%
 	.block__content
-		display: inline-block
-		max-width: 542px
-		min-height: 588px
-		padding: 55px 80px
+		height: 588px
+		padding: 50px 80px
 		background: url(../img/bg.jpg)
 		color: #fff
-		vertical-align: top
 		text-align: left
 		+r(1020)
 			width: 100%
 			max-width: 100%
-			min-height: 0
+			height: auto
 			padding: 40px 20px
 	.block__title
 		margin-bottom: 25px
@@ -346,7 +348,7 @@ a
 		font-size: 18px
 		font-weight: 300 
 		p
-			margin-bottom: 23px
+			margin-bottom: 22px
 	.block__more
 		font-size: 18px
 		a

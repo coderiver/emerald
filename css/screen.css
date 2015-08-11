@@ -105,9 +105,11 @@ a { text-decoration: none; color: #ffba00; }
 .block.block_7 { float: left; width: 369px; }
 @media only screen and (max-width: 1400px) { .block.block_7 { float: right; width: 370px; } }
 @media only screen and (max-width: 1020px) { .block.block_7 { display: none; } }
-.block.block_8 { float: left; }
+.block.block_8 { float: left; width: 542px; }
 @media only screen and (max-width: 1400px) { .block.block_8 { width: 540px; height: 638px; } }
 @media only screen and (max-width: 1020px) { .block.block_8 { width: 100%; height: auto; } }
+.block.block_8 .block__content { height: 638px; }
+@media only screen and (max-width: 1020px) { .block.block_8 .block__content { height: auto; } }
 .block.block_9 { float: left; width: 369px; }
 @media only screen and (max-width: 1400px) { .block.block_9 { width: 370px; } }
 @media only screen and (max-width: 1020px) { .block.block_9 { display: none; } }
@@ -116,11 +118,11 @@ a { text-decoration: none; color: #ffba00; }
   .block.block_2 .block__pic, .block.block_3 .block__pic, .block.block_4 .block__pic, .block.block_6 .block__pic { position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
   .block.block_2 .block__pic img, .block.block_3 .block__pic img, .block.block_4 .block__pic img, .block.block_6 .block__pic img { position: absolute; top: 0; left: 50%; width: auto; height: 100%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); } }
 @media only screen and (max-width: 630px) { .block.block_2, .block.block_3, .block.block_4, .block.block_6 { width: 50%; } }
-.block .block__content { display: inline-block; max-width: 542px; min-height: 588px; padding: 55px 80px; background: url(../img/bg.jpg); color: white; vertical-align: top; text-align: left; }
-@media only screen and (max-width: 1020px) { .block .block__content { width: 100%; max-width: 100%; min-height: 0; padding: 40px 20px; } }
+.block .block__content { height: 588px; padding: 50px 80px; background: url(../img/bg.jpg); color: white; text-align: left; }
+@media only screen and (max-width: 1020px) { .block .block__content { width: 100%; max-width: 100%; height: auto; padding: 40px 20px; } }
 .block .block__title { margin-bottom: 25px; font-size: 30px; font-weight: 600; text-transform: uppercase; }
 .block .block__text { font-size: 18px; font-weight: 300; }
-.block .block__text p { margin-bottom: 23px; }
+.block .block__text p { margin-bottom: 22px; }
 .block .block__more { font-size: 18px; }
 .block .block__more a { text-decoration: underline; }
 .block .block__more a:hover { text-decoration: none; }
