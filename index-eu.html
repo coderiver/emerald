@@ -5,6 +5,8 @@
 	<title>Emerald Palace Kempinski Hotel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" media="all" href="css/jquery-ui.min.css" >
+	<link rel="stylesheet" media="all" href="css/jquery-ui.theme.min.css" >
 	<link rel="stylesheet" media="all" href="css/screen.css" >
 </head>
 <body>
@@ -350,7 +352,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<!-- field -->
 								<div class="field">
 									<div class="field__in">
-										<input class="input" type="text" name="phone" placeholder="Phone" data-validation="required" data-validation-error-msg="Required field">
+										<input class="input js-autocomplete js-mask" type="text" name="phone" data-validation="required" data-validation-error-msg="Required field">
 									</div>
 								</div>
 								<!-- field -->
@@ -385,7 +387,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="popup__in">
 		<!-- form -->
 		<form id="form-welcome" class="form">
-			<div class="form__title">Save your time - <br> Please complete the form below <br>and we will contact you soon</div> 
+			<div class="form__title">Save your time - <br> Please complete the form below <br>and we will contact you soon</div>
 			<div class="form__in">
 				<!-- field -->
 				<div class="field">
@@ -402,7 +404,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<!-- field -->
 				<div class="field field_mb30">
 					<div class="field__in">
-						<input class="input" type="text" name="phone" placeholder="Phone" data-validation="required" data-validation-error-msg="Required field">
+						<input class="input js-autocomplete js-mask" type="text" name="phone" placeholder="Phone" data-validation="required" data-validation-error-msg="Required field">
 					</div>
 				</div>
 				<button class="btn btn_small btn_wide" type="submit" id="3">Continue</button>

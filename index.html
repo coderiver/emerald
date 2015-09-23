@@ -5,6 +5,8 @@
 	<title>Emerald Palace Kempinski Hotel</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" media="all" href="css/jquery-ui.min.css" >
+	<link rel="stylesheet" media="all" href="css/jquery-ui.theme.min.css" >
 	<link rel="stylesheet" media="all" href="css/screen.css" >
 </head>
 <body>
@@ -234,7 +236,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="builder__content">
 				<div class="builder__title">Застройщик</div>
 				<div class="builder__text">
-					<p>Emerald Palace Group, являющаяся стратегическим партнером Kempinski S.A., входит в группу ассоциированных компаний, которая с 1996г. успешно осуществляет в качестве застройщика жилые и коммерческие проекты в Украине, ОАЭ и России.</p>				  
+					<p>Emerald Palace Group, являющаяся стратегическим партнером Kempinski S.A., входит в группу ассоциированных компаний, которая с 1996г. успешно осуществляет в качестве застройщика жилые и коммерческие проекты в Украине, ОАЭ и России.</p>
 					<p>Группа компаний завершила порядка 40 комплексных проектов, состоящих из более чем 10,000 жилых владений, общей площадью более миллиона квадратных метров и в настоящее время осуществляет строительство восьми проектов, а еще десять находятся на стадии разработки.</p>
 				</div>
 				<div class="builder__more">
@@ -352,7 +354,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 								<!-- field -->
 								<div class="field">
 									<div class="field__in">
-										<input class="input" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
+										<input class="input js-autocomplete js-mask" type="text" name="phone" data-validation="required" data-validation-error-msg="Обязательное поле">
 									</div>
 								</div>
 								<!-- field -->
@@ -404,7 +406,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<!-- field -->
 				<div class="field field_mb30">
 					<div class="field__in">
-						<input class="input" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
+						<input class="input js-autocomplete js-mask" type="text" name="phone" placeholder="Тел" data-validation="required" data-validation-error-msg="Обязательное поле">
 					</div>
 				</div>
 				<button class="btn btn_small btn_wide" type="submit" id="3">продолжить</button>

@@ -40,7 +40,7 @@ head.ready(function() {
 		    var status = localStorage.getItem('validate');
 		    console.log(status);
 		    if (!status == 'yes' || status == null) {
-		    	welcome.fadeIn();
+		 	welcome.fadeIn();
 		    };
 		} else {
 		    // Sorry! No Web Storage support..
@@ -58,12 +58,12 @@ head.ready(function() {
 		form : '#form-welcome',
 		onSuccess: function() {
 			post_data = {
-				'name': $('#form-welcome input[name=name]').val(), 
+				'name': $('#form-welcome input[name=name]').val(),
 				'email': $('#form-welcome input[name=email]').val(),
 				'phone': $('#form-welcome input[name=phone]').val()
 			};
 			//Ajax post data to server
-			$.post('send.php', post_data, function(response){  
+			$.post('send.php', post_data, function(response){
 				if (response.type == 'error') {}
 				else {
 					//reset values in all input fields
@@ -91,13 +91,13 @@ head.ready(function() {
 		form : '#form-feedback',
 		onSuccess: function() {
 			post_data = {
-				'name': $('#form-feedback input[name=name]').val(), 
+				'name': $('#form-feedback input[name=name]').val(),
 				'email': $('#form-feedback input[name=email]').val(),
 				'phone': $('#form-feedback input[name=phone]').val(),
 				'comment': $('#form-feedback textarea[name=comment]').val()
 			};
 			//Ajax post data to server
-			$.post('send.php', post_data, function(response){  
+			$.post('send.php', post_data, function(response){
 				if (response.type == 'error') {}
 				else {
 					//reset values in all input fields
@@ -118,13 +118,13 @@ head.ready(function() {
 		form : '#form-footer',
 		onSuccess: function() {
 			post_data = {
-				'name': $('#form-footer input[name=name]').val(), 
+				'name': $('#form-footer input[name=name]').val(),
 				'email': $('#form-footer input[name=email]').val(),
 				'phone': $('#form-footer input[name=phone]').val(),
 				'comment': $('#form-footer textarea[name=comment]').val()
 			};
 			//Ajax post data to server
-			$.post('send.php', post_data, function(response){  
+			$.post('send.php', post_data, function(response){
 				if (response.type == 'error') {}
 				else {
 					//reset values in all input fields
@@ -140,6 +140,22 @@ head.ready(function() {
 	});
 }());
 
+	// autocomplete and mask
+	$(function() {
+		var availableTags = [
+			'+38',
+			'+7',
+			'+4',
+			'+9'
+		];
+		$('.js-autocomplete').autocomplete({
+			source: availableTags,
+			minLength: 0
+		}).bind('focus', function() { $(this).autocomplete('search'); } );
+	});
 
-	
+	$('.js-mask').mask('+000-00-0000000', {
+		placeholder: '+___-__-_______'
+	});
 });
+
