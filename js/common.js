@@ -41,8 +41,10 @@ head.ready(function() {
 		    console.log(status);
 		    if (!status == 'yes' || status == null) {
 		 	welcome.fadeIn();
+		 	body.addClass('no-scroll');
 		    };
 		} else {
+			body.removeClass('no-scroll');
 		    // Sorry! No Web Storage support..
 		}
 	}, 1000);
@@ -142,16 +144,114 @@ head.ready(function() {
 
 	// autocomplete and mask
 	$(function() {
-		var availableTags = [
-			'+38',
-			'+7',
-			'+4',
-			'+9'
-		];
-		$('.js-autocomplete').autocomplete({
-			source: availableTags,
-			minLength: 0
-		}).bind('focus', function() { $(this).autocomplete('search'); } );
+		// russian version
+		var rusTags = [{
+			label: '+44 (Англия)',
+			value: '+44'
+		}, {
+			label: '+39 (Италия)',
+			value: '+39'
+		}, {
+			label: '+974 (Катар)',
+			value: '+974'
+		}, {
+			label: '+86 (Китай)',
+			value: '+86'
+		}, {
+			label: '+92 (Пакистан)',
+			value: '+92'
+		}, {
+			label: '+7 (Россия)',
+			value: '+7'
+		}, {
+			label: '+966 (Саудовская Аравия)',
+			value: '+966'
+		}, {
+			label: '+33 (Франция)',
+			value: '+33'
+		}, {
+			label: '+41 (Швейцария)',
+			value: '+41'
+		}];
+
+		// english version
+		var enTags = [{
+			label: '+44 (UK)',
+			value: '+44'
+		}, {
+			label: '+39 (Italy)',
+			value: '+39'
+		}, {
+			label: '+974 (Quatar)',
+			value: '+974'
+		}, {
+			label: '+86 (China)',
+			value: '+86'
+		}, {
+			label: '+92 (Pakistan)',
+			value: '+92'
+		}, {
+			label: '+7 (Russia)',
+			value: '+7'
+		}, {
+			label: '+966 (Saudi Arabia)',
+			value: '+966'
+		}, {
+			label: '+33 (France)',
+			value: '+33'
+		}, {
+			label: '+41 (Switzerland)',
+			value: '+41'
+		}];
+
+		// arabic version
+		var arTags = [{
+			label: '+44 (المملكة المتحدة)',
+			value: '+44'
+		}, {
+			label: '+39 (إيطاليا)',
+			value: '+39'
+		}, {
+			label: '+974 (بقطر في تشرين الثاني)',
+			value: '+974'
+		}, {
+			label: '+86 (الصين)',
+			value: '+86'
+		}, {
+			label: '+92 (باكستان)',
+			value: '+92'
+		}, {
+			label: '+7 (روسيا)',
+			value: '+7'
+		}, {
+			label: '+966 (المملكة العربية السعودية)',
+			value: '+966'
+		}, {
+			label: '+33 (فرنسا)',
+			value: '+33'
+		}, {
+			label: '+41 (سويسرا)',
+			value: '+41'
+		}];
+
+		$('.js-autocomplete.js-ru').autocomplete({
+			minLength: 0,
+			source: rusTags
+		}).bind('focus', function() {
+			$(this).autocomplete('search');
+		});
+		$('.js-autocomplete.js-en').autocomplete({
+			minLength: 0,
+			source: enTags
+		}).bind('focus', function() {
+			$(this).autocomplete('search');
+		});
+		$('.js-autocomplete.js-ar').autocomplete({
+			minLength: 0,
+			source: arTags
+		}).bind('focus', function() {
+			$(this).autocomplete('search');
+		});
 	});
 
 	$('.js-mask').mask('+000-00-0000000', {
