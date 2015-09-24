@@ -206,32 +206,35 @@ head.ready(function() {
 
 		// arabic version
 		var arTags = [{
-			label: '+44 (المملكة المتحدة)',
-			value: '+44'
+			label: '44 (المملكة المتحدة)',
+			value: '44'
 		}, {
-			label: '+39 (إيطاليا)',
-			value: '+39'
+			label: '39 (إيطاليا)',
+			value: '39'
 		}, {
-			label: '+974 (بقطر في تشرين الثاني)',
-			value: '+974'
+			label: '974 (بقطر في تشرين الثاني)',
+			value: '974'
 		}, {
-			label: '+86 (الصين)',
-			value: '+86'
+			label: '86 (الصين)',
+			value: '86'
 		}, {
-			label: '+92 (باكستان)',
-			value: '+92'
+			label: '92 (باكستان)',
+			value: '92'
 		}, {
-			label: '+7 (روسيا)',
-			value: '+7'
+			label: '7 (روسيا)',
+			value: '7'
 		}, {
-			label: '+966 (المملكة العربية السعودية)',
-			value: '+966'
+		    label: '971 (الإمارات العربية المتحدة)',
+			value: '971'
 		}, {
-			label: '+33 (فرنسا)',
-			value: '+33'
+			label: '966 (المملكة العربية السعودية)',
+			value: '966'
 		}, {
-			label: '+41 (سويسرا)',
-			value: '+41'
+			label: '33 (فرنسا)',
+			value: '33'
+		}, {
+			label: '41 (سويسرا)',
+			value: '41'
 		}];
 
 		$('.js-autocomplete.js-ru').autocomplete({
@@ -254,8 +257,17 @@ head.ready(function() {
 		});
 	});
 
-	$('.js-mask').mask('+000-00-0000000', {
+	$('.js-mask.js-ru').mask('+000-00-0000000', {
 		placeholder: '+___-__-_______'
 	});
+
+	$('.js-mask.js-en').mask('+000-00-0000000', {
+		placeholder: '+___-__-_______'
+	});
+
+	$('.js-mask.js-ar').mask('000-00-0000000', {
+		placeholder: '___-__-_______'
+	});
+
 });
 

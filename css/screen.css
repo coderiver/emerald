@@ -39,6 +39,7 @@ html[dir="rtl"] .more:before, html[dir="rtl"] .more:after, html[dir="rtl"] .offe
 html[dir="rtl"] .lang a { margin-right: 0; margin-left: 6px; }
 html[dir="rtl"] .finance__item { padding-right: 75px; padding-left: 0; }
 @media only screen and (max-width: 760px) { html[dir="rtl"] .finance__item { padding-right: 10px; } }
+html[dir="rtl"] .finance__col { padding-right: 0; }
 html[dir="rtl"] .finance__col:first-child { margin-right: 0; margin-left: 8%; }
 @media only screen and (max-width: 1020px) { html[dir="rtl"] .finance__col:first-child { margin: 0; } }
 html[dir="rtl"] .finance__counter { right: -9px; left: auto; padding-right: 15px; padding-left: 0; background: url('../img/icons-sd130a5b686.png') 0 -306px no-repeat; width: 69px; height: 64px; }
@@ -49,6 +50,7 @@ html[dir="rtl"] .contacts__list li { padding-left: 0; padding-right: 25px; }
 html[dir="rtl"] .contacts__list i { left: auto; right: 0; }
 html[dir="rtl"] .footer .logo { float: left; margin-left: 0; margin-right: 30px; }
 @media only screen and (max-width: 760px) { html[dir="rtl"] .footer .logo { margin: 0 0 0 -87px; } }
+html[dir="rtl"] .ui-widget-content { text-align: left; }
 
 .center { max-width: 1320px; margin: 0 auto; padding: 0 20px; }
 .center.center_middle { max-width: 1220px; }
