@@ -226,7 +226,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 		<!-- center -->
 		<div class="center">
-			<span class="center_shadow-top"></span>
+			<span class="center__shadow"></span>
 			<div class="blocks__ttl">Фото интерьеров номеров</div>
 			<div class="blocks__list">
 				<!-- block -->
@@ -283,7 +283,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<div class="center">
 			<!-- more -->
 			<div class="more">
-				<a class="btn btn_dark" href="http://emeraldpalacere.com/rus/" target="_blank">Детальнее на сайте</a>
+				<a class="btn btn_red" href="http://emeraldpalacere.com/rus/" target="_blank">Детальнее на сайте</a>
 			</div>
 		</div>
 	</div>

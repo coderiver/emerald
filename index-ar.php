@@ -1,0 +1,725 @@
+﻿<!doctype html>
+<html dir="rtl" lang="ar">
+<head>
+	<meta charset="utf-8">
+	<title>Emerald Palace Kempinski</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" media="all" href="css/jquery-ui.min.css" >
+	<link rel="stylesheet" media="all" href="css/jquery-ui.theme.min.css" >
+	<link rel="stylesheet" media="all" href="css/screen.css" >
+</head>
+<body class="is-arabic">
+
+<!-- Google Tag Manager -->
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P6VXSV"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-P6VXSV');</script>
+
+<!-- End Google Tag Manager -->
+
+
+<!-- wrapper -->
+<div class="wrapper wrapper_ar">
+	<!-- main -->
+	<div id="main" class="main">
+		<div class="main__video">
+			<video class="main__video-el" autoplay="autoplay" title="video" loop="loop">
+				<source src="video/video.webm" type="video/webm" />
+				<source src="video/video.mp4" type="video/mp4" />
+				<source src="video/video.ogv" type="video/ogg" />
+			</video>
+		</div>
+		<div class="main__in">
+			<!-- center -->
+			<div class="center center_small">
+				<!-- header -->
+				<header class="header">
+					<!-- logo -->
+					<div class="logo"></div>
+					<!-- btn-menu -->
+					<button class="btn-menu js-popup-enter" data-popup="js-popup-menu">
+						<span class="btn-menu__title">قائمة</span>
+						<i class="btn-menu__icon"></i>
+					</button>
+					<div class="header__right">
+						<!-- lang -->
+						<div class="lang">
+							<a href="index.php">eng</a>
+							<a href="index-ru.php">рус</a>
+							<a href="index-ar.php">العربية</a>
+ 							<a href="index-ch.php">中文</a>
+						</div>
+						<!-- phone -->
+						<a class="phone" href="tel:+971503593388"><span id="istat_0">+971-50-3593388<br>
+						+971-50-3593366</span></a>
+					</div>
+				</header>
+				<div class="main__title">إستثمر في دبي</div>
+			</div>
+		</div>
+	</div>
+	<!-- blocks -->
+	<div id="luxury" class="blocks no-bottom-pic">
+		<!-- center -->
+		<div class="center">
+			<div class="blocks__list">
+				<!-- block -->
+				<div class="block block_1">
+					<div class="block__content">
+						<div class="block__title">إستثمر في دبي</div>
+						<div class="block__text">
+							<p>فوق مساحة مذهلة تبلغ 100.000 متر مربع يحتل كمبينسكي إميرالد موقعه الرائع، ويضم 347 غرفة فخمة تشمل 36 جناحاً رحباً، وثمان فلل ملكية غاية في الفخامة محاطة بحدائق استوائية خضراء وبإطلالات ساحرة على البحيرة.</p>
+							<p>ومع سلسلة متنوعة من المطاعم العالمية ومركز تجاري وصالة سينما، يوفر الفندق لضيوفه خيارات واسعة للاستمتاع بوجبة طعام أو حضور الفعاليات الترفيهية أو ممارسة النشاطات.</p>
+							<p>كما يقدم الفندق لضيوفه مجموعة واسعة من الرياضات المائية، مثل رحلات الغوص والغطس والرحلات البحرية والتزلج على الماء ورحلات اليخوت وصيد السمك في مياه الخليج العربي. أضف إلى ذلك، مرافق خاصة لممارسة ألعاب اليوغا والبيلاتس وألعاب الكرة، ونشاطات خاصة للأطفال ونادي لليافعين.</p>
+						</div>
+						<div class="block__more">
+							<a class="js-popup-enter" data-popup="js-popup-content-luxury" href="#">اقرأ أكثر</a>
+						</div>
+					</div>
+					<!-- block -->
+					<a class="block block_5 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="20" href="#">
+						<div class="block__pic">
+							<img src="img/pic4.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<!-- block -->
+				<a class="block block_2 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="-1" href="#">
+					<div class="block__pic">
+						<img src="img/pic1.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_3 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="22" href="#">
+					<div class="block__pic">
+						<img src="img/pic2.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_4 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="21" href="#">
+					<div class="block__pic">
+						<img src="img/pic3.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_6 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="19" href="#">
+					<div class="block__pic">
+						<img src="img/pic5.jpg" alt="">
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- blocks -->
+	<div class="blocks no-margin">
+		<!-- center -->
+		<div class="center">
+			<div class="blocks__ttl">التصميم الداخلي للغرف</div>
+			<div class="blocks__list">
+				<!-- block -->
+				<div class="block block_1 is-right">
+					<div class="block__content">
+						<!-- <div class="block__title">استعداد التصميم الداخلي للغرف</div> -->
+						<div class="block__text">
+							<p>تم تصميم الغرف في فندق إميرالد بالاس مع متوسط مساحة تتجاوز 100 متر مربع للغرفة الواحدة لمنحها الرحابة الكافية لاستيعاب قطع الأثاث الفخمة التي قام حرفيون متخصصون في شركة "فرانشيسكو مولين" بتصنيعها يدوياً ومنحها لمسة من الأناقة الإيطالية التقليدية. وجنباً إلى جنب عمل المصممون الداخليون لشركة "فرانشيسكو مولين" الإيطالية مع فريق المصممين العاملين في شركة "ليو إنترناشيونال" لتقديم أحد أكثر التصاميم الداخلية ابتكاراً، والتي يمكن لفندق فخم أن يفخر بها. ومن أجل إضفاء روح الفخامة والهيبة التي تقوم عليها تقاليد صناعة الأثاث الكلاسيكية.</p>
+							<p>تم تصنيع جميع قطع الأثاث بطريقة يدوية في إيطاليا، وتم اختيار الستائر والأقمشة والثريات الكريستالية والسجاد والرخام بعناية فائقة لتخلق أجواء تفيض بالأناقة والرفاهية.</p>
+						</div>
+						<div class="block__more">
+							<a class="js-popup-enter" data-popup="js-popup-content-luxury" href="#">اقرأ أكثر</a>
+						</div>
+					</div>
+					<!-- block -->
+					<a class="block block_5 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="21" href="#">
+						<div class="block__pic">
+							<img src="img/pic16.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<!-- block -->
+				<a class="block block_2 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="-1" href="#">
+					<div class="block__pic">
+						<img src="img/pic12.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_3 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="20" href="#">
+					<div class="block__pic">
+						<img src="img/pic17.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_4 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="33" href="#">
+					<div class="block__pic">
+						<img src="img/pic14.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_6 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="34" href="#">
+					<div class="block__pic">
+						<img src="img/pic15.jpg" alt="">
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- bg -->
+	<div class="bg">
+		<!-- center -->
+		<div class="center">
+			<!-- more -->
+			<div class="more">
+				<a class="btn btn_dark" href="http://emeraldpalacere.com/" target="_blank">تفاصيل عن الموقع</a>
+			</div>
+		</div>
+	</div>
+	<!-- map -->
+	<div id="location" class="map">
+		<div class="map__data">
+			<div class="map__title">العنوان:</div>
+			<div class="map__text">إميرالد بالاس للوساطة العقارية كمبينسكي ريزيدنس وشقق فندقية بالم جميرا – الطابق الأول صندوق بريد 214991 دبي – الإمارات العربية المتحدة</div>
+		</div>
+		<div class="map__wrap">
+			<div id="map-canvas" class="map__canvas"></div>
+		</div>
+	</div>
+	<!-- bg -->
+	<div id="finance" class="bg bg_big">
+		<!-- center -->
+		<div class="center center_middle">
+			<!-- finance -->
+			<div class="finance">
+				<div class="finance__title">ميزات </div>
+				<div class="finance__in">
+					<div class="finance__col-title">على ماذا حصلت</div>
+					<div class="finance__col">
+						<div class="finance__item">
+							<div class="finance__counter">1</div>
+							<div class="finance__content">استثمار آمن مع سند ملكية مسجل من الدوائر الحكومية</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">2</div>
+							<div class="finance__content">40% من إجمالي صافي إيرادات المتولدة من جميع غرف الفندق توزع مباشرة على المستثميرين.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">3</div>
+							<div class="finance__content">تدفع كمبينسكي الإيجار مباشرة إلى حسابات المستثميرين.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">4</div>
+							<div class="finance__content">لا يتحمل المشتري أي من تكاليف صيانة وخدمة الفندق.</div>
+						</div>
+						<div class="finance__shadow"></div>
+					</div>
+					<div class="finance__col">
+						<div class="finance__item">
+							<div class="finance__counter">5</div>
+							<div class="finance__content">قضاء 14 ليلة مجانية في السنة مع التمتع بامتيازات كعضو في نادي الفندق.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">6</div>
+							<div class="finance__content">أقساط ميسرة خلال فترة الإنشاء</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">7</div>
+							<div class="finance__content">انهاء وتسليم المشروع في الربع الثاني من 2016</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">8</div>
+							<div class="finance__content">قيمة الإستثمار في مشروع عقاري فخم تبدأ من 2.88 ملون درهم</div>
+						</div>
+						<div class="finance__shadow"></div>
+					</div>
+				</div>
+				<div class="finance__more">
+					<a class="btn btn_dark js-popup-enter" data-popup="js-popup-content-finance" href="#">اكتشف أكثر</a>
+				</div>
+			</div>
+			<!-- offer -->
+			<div class="offer">
+				<div class="offer__wrap">
+					<div class="offer__in">
+						<div class="offer__title">عرض حصري</div>
+						<button class="btn js-popup-enter" data-popup="js-popup-feedback" id="1">احصل</button>
+					</div>
+				</div>
+				<!-- phone -->
+				<a class="phone" href="tel:+971503593388"><span id="istat_1">971-50-3593388</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- builder -->
+	<div id="developer" class="builder">
+		<!-- center -->
+		<div class="center center_small">
+			<div class="builder__content">
+				<div class="builder__title">المطور العقاري</div>
+				<div class="builder__text">
+					<p>تعتبر مجموعة إميرالد بالاس الشريك الاستراتيجي لسلسلة فنادق كمبينسكي، وجزءاً أساسياً من مجموعة من الشركات المترابطة التي استطاعت تطوير وبناء سلسلة من المشاريع السكنية الناجحة في كل من أوكرانيا والإمارات العربية المتحدة وروسيا منذ العالم 1996.</p>
+					<p> كما استطاعت المجموعة إنجاز حوالي 40 مشروعاً عقارياً رئيسياً تضم أكثر من 10.000 وحدة سكنية موزعة على مساحة تزيد عن المليون متر مربع. أما في الوقت الحاضر فتملك الشركة 8 مشاريع تطويرية جديدة قيد الإنشاء، و10 مشاريع أخرى قيد الدراسة.</p>
+				</div>
+				<div class="builder__more">
+					<a class="js-popup-enter" data-popup="js-popup-content-developer" href="#">اقرأ أكثر</a>
+				</div>
+			</div>
+			<div class="builder__logos">
+				<div class="builder__logos-item">
+					<img src="img/logo-epg.png" alt="">
+				</div>
+				<div class="builder__logos-item">
+					<img src="img/logo-kempinski.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- partners -->
+	<div class="partners">
+		<!-- center -->
+		<div class="center center_middle">
+			<div class="partners__title">الشركاء</div>
+			<div class="partners__list">
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-mace.png" alt="">
+					</div>
+					<div class="partners__item-title">Mace International</div>
+					<div class="partners__position">مدير مشروع</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-hyder.png" alt="">
+					</div>
+					<div class="partners__item-title">Hyder consulting</div>
+					<div class="partners__position">مهندس معماري</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-atkins.png" alt="">
+					</div>
+					<div class="partners__item-title">W.S.atkins overseas</div>
+					<div class="partners__position">شريك تصميم و تخطيط</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-leointer.png" alt="">
+					</div>
+					<div class="partners__item-title">Leo international</div>
+					<div class="partners__position">استشاري تصميم داخلي</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-molon.png" alt="">
+					</div>
+					<div class="partners__item-title">Francesco molon</div>
+					<div class="partners__position">شريك المفروشات</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-tlnint.png" alt="">
+					</div>
+					<div class="partners__item-title">The Luxury Network</div>
+					<div class="partners__position">تسويق</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- bg -->
+	<div id="contacts" class="bg bg_bigger">
+		<!-- center -->
+		<div class="center center_small">
+			<!-- footer -->
+			<div class="footer">
+				<div class="footer__l">
+					<div class="footer__contacts">
+						<!-- contacts -->
+						<div class="contacts">
+							<div class="contacts__title">معلومات الاتصال</div>
+							<div class="contacts__text">
+								<p><span>لمعلومات إضافية واستفسارات عن البيع، يمكن الإتصال بنا علي:</span></p>
+								<p>إميرالد بالاس للوساطة العقارية كمبينسكي ريزيدنس وشقق فندقية بالم جميرا – الطابق الأول صندوق بريد 214991 دبي – الإمارات العربية المتحدة</p>
+							</div>
+							<ul class="contacts__list">
+								<span id="istat_2"><li><i class="contacts__phone1"></i><a href="tel:+971503593388">971-50-3593388</a><br><a href="tel:+971503593366">971-50-3593366</a></li>
+                            </span>
+								<li><i class="contacts__mail"></i><a href="mailto:info@emeraldpalacere.com">info@emeraldpalacere.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__form">
+						<!-- form -->
+						<form id="form-footer" class="form form_footer">
+							<div class="form__title">Get exclusive <br>offer</div>
+							<div class="form__in">
+								<!-- field -->
+								<div class="field">
+									<div class="field__in">
+										<input class="input" type="text" name="name" placeholder="الاسم" data-validation="required" data-validation-error-msg="Required field">
+									</div>
+								</div>
+								<!-- field -->
+								<div class="field">
+									<div class="field__in">
+										<input class="input" type="text" name="email" placeholder="البريد الالكتروني" data-validation="email" data-validation-error-msg="Required field">
+									</div>
+								</div>
+								<!-- field -->
+								<div class="field">
+									<div class="field__in">
+										<input class="input js-autocomplete js-mask js-ar" type="text" name="phone" data-validation="required" data-validation-error-msg="Required field">
+									</div>
+								</div>
+								<!-- field -->
+								<div class="field field_mb30">
+									<div class="field__in">
+										<textarea class="input input_area" name="comment" placeholder="تعليق"></textarea>
+									</div>
+								</div>
+								<input type="hidden" value="<?php echo $_SERVER["HTTP_REFERER"]; ?>" name="referer">
+								<button class="btn btn_small btn_wide" id="2">ارسل</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="footer__down">
+					<!-- logo -->
+					<div class="logo"></div>
+					<nav class="footer__nav">
+						<a href="#main">رئيسي</a>
+						<a href="#finance">مساعدة مالية</a>
+						<a href="#contacts">اتصال</a>
+						<a href="#luxury">عالم من الرفاهية</a>
+						<a href="#location">الموقع</a>
+						<a href="#developer">المطور</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-welcome">
+	<div class="popup__in">
+	<button class="popup__close js-popup-close"></button>
+		<!-- form -->
+		<form id="form-welcome" class="form">
+			<div class="form__title">وفر وقتك – رجاءا إملأ النموذج أدناه و سوف نقوم نحن بالإتصال بك</div>
+			<div class="form__in">
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="name" placeholder="الاسم" data-validation="required" data-validation-error-msg="Required field">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="email" placeholder="البريد الالكتروني" data-validation="email" data-validation-error-msg="Required field">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field field_mb30">
+					<div class="field__in">
+						<input class="input js-autocomplete js-mask js-ar" type="text" name="phone" data-validation="required" data-validation-error-msg="Required field">
+					</div>
+				</div>
+				<input type="hidden" value="<?php echo $_SERVER["HTTP_REFERER"]; ?>" name="referer">
+				<button class="btn btn_small btn_wide" type="submit" id="3">استمرار</button>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-feedback">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- form -->
+		<form id="form-feedback" class="form">
+			<div class="form__title">Get exclusive offer</div>
+			<div class="form__in">
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="name" placeholder="الاسم" data-validation="required" data-validation-error-msg="Required field">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="email" placeholder="البريد الالكتروني" data-validation="email" data-validation-error-msg="Required field">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input js-autocomplete js-mask js-ar" type="text" name="phone" data-validation="required" data-validation-error-msg="Required field">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field field_mb30">
+					<div class="field__in">
+						<textarea class="input input_area" name="comment" placeholder="تعليق"></textarea>
+					</div>
+				</div>
+				<input type="hidden" value="<?php echo $_SERVER["HTTP_REFERER"]; ?>" name="referer">
+				<button class="btn btn_small btn_wide" id="4">ارسل</button>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup popup_menu js-popup js-popup-menu">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- menu -->
+		<div class="menu">
+			<div class="menu__title">قائمة</div>
+			<div class="menu__list">
+				<a class="btn js-popup-close" href="#main">رئيسي</a>
+				<a class="btn js-popup-close" href="#luxury">عالم من الرفاهية</a>
+				<a class="btn js-popup-close" href="#location">الموقع</a>
+				<a class="btn js-popup-close" href="#finance">مساعدة مالية</a>
+				<a class="btn js-popup-close" href="#developer">المطور</a>
+				<a class="btn js-popup-close" href="#contacts">اتصال</a>
+			</div>
+		</div>
+		<!-- offer -->
+		<div class="offer">
+			<div class="offer__wrap">
+				<div class="offer__in">
+					<div class="offer__title">عرض حصري</div>
+					<button class="btn js-popup-enter" data-popup="js-popup-feedback" id="5">احصل</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup popup_gallery js-popup js-popup-gallery">
+	<button class="popup__close js-popup-close"></button>
+	<!-- slider -->
+	<div class="slider js-sl">
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_01.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_02.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_03.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_04.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_05.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_06.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_07.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_08.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_09.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_10.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_11.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_12.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_13.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_14.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_15.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_16.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_17.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_18.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_19.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_20.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_21.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_22.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_23.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_24.jpg)"></div>
+	</div>
+</div>
+<!-- popup new gallery -->
+<div class="popup popup_gallery js-popup js-popup-new-gallery">
+	<button class="popup__close js-popup-close"></button>
+	<!-- slider -->
+	<div class="slider js-sl">
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/1.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/2.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/3.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/4.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/5.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/6.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/7.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/8.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/9.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/10.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/11.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/12.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/13.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/14.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/15.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/16.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/17.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/18.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/19.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/20.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/21.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/22.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/23.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/24.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/25.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/26.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/27.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/28.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/29.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/30.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/31.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/32.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/33.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/34.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/35.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/36.jpg)"></div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-luxury">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>فوق مساحة مذهلة تبلغ 100.000 متر مربع يحتل كمبينسكي إميرالد موقعه الرائع، ويضم 347 غرفة فخمة تشمل 36 جناحاً رحباً، وثمان فلل ملكية غاية في الفخامة محاطة بحدائق استوائية خضراء وبإطلالات ساحرة على البحيرة. </p>
+			<p>ومع سلسلة متنوعة من المطاعم العالمية ومركز تجاري وصالة سينما، يوفر الفندق لضيوفه خيارات واسعة للاستمتاع بوجبة طعام أو حضور الفعاليات الترفيهية أو ممارسة النشاطات.</p>
+			<p>كما يقدم الفندق لضيوفه مجموعة واسعة من الرياضات المائية، مثل رحلات الغوص والغطس والرحلات البحرية والتزلج على الماء ورحلات اليخوت وصيد السمك في مياه الخليج العربي. أضف إلى ذلك، مرافق خاصة لممارسة ألعاب اليوغا والبيلاتس وألعاب الكرة، ونشاطات خاصة للأطفال ونادي لليافعين. </p>
+			<p>أخيراً، وليس آخراً، يضم الفندق مراكز أعمال ومؤتمرات من الطراز الأول، مما جعله الوجهة الأكثر جاذبية ليس للسياح والمصطافين فقط، بل أيضاً للشركات ورجال الأعمال على حد سواء.</p>
+			<p>يتميز الفندق بتصميه الضخم ولمساته الداخلية ذات الطابع الملكي. </p>
+			<p>تصاميم داخلية رائعة مستوحاة من الذوق السائد في أوروبا خلال القرن الثامن عشر، عمل على ابتكارها أشهر الاستشاريين في شركة ليو انترناشيونال خصيصاً كمبينسكي إميرالد بالاس لتعكس روح الفخامة والترف التي كان ينبض بها عصر الملك لويس الرابع عشر، مع لمسات حديثة لترضي الذوق المعاصر للضيوف المميزين. </p>
+			<p>ثريات كريستالية براقة، ورخام أملس، وخشب مطعّم بخيوط من الذهب والفضة جنباً إلى جنب مع أقمشة فخمة ضمن تناسق ألوان أنيق وسط مساحات رحبة، كل ذلك لإضفاء أجواء من الهيبة على أسلوب حياة غاية في الفخامة.</p>
+			<p>يأتي التصميم الكلاسيكي للفندق ليتكامل ويتناغم مع كمبينسكي ريزيدنس وشقق فندقية بالم جميرا المجاور له والذي تم تنفيذه بنفس الروح المعمارية للفندق</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-interior">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>تم تصميم الغرف في فندق إميرالد بالاس مع متوسط مساحة تتجاوز 100 متر مربع للغرفة الواحدة لمنحها الرحابة الكافية لاستيعاب قطع الأثاث الفخمة التي قام حرفيون متخصصون في شركة "فرانشيسكو مولين" بتصنيعها يدوياً ومنحها لمسة من الأناقة الإيطالية التقليدية. وجنباً إلى جنب عمل المصممون الداخليون لشركة "فرانشيسكو مولين" الإيطالية مع فريق المصممين العاملين في شركة "ليو إنترناشيونال" لتقديم أحد أكثر التصاميم الداخلية ابتكاراً، والتي يمكن لفندق فخم أن يفخر بها. ومن أجل إضفاء روح الفخامة والهيبة التي تقوم عليها تقاليد صناعة الأثاث الكلاسيكية.</p>
+			<p>تم تصنيع جميع قطع الأثاث بطريقة يدوية في إيطاليا، وتم اختيار الستائر والأقمشة والثريات الكريستالية والسجاد والرخام بعناية فائقة لتخلق أجواء تفيض بالأناقة والرفاهية.</p>
+			<p>ستائر فخمة، وأقمشة كتانية بيضاء تعلوها أدوات وأواني مائدة صنعت من الكريستال الشفاف لتتناغم مع رحابة المكان، وعلامات تجارية معروفة مثلVilleroy & Boch و Grohe تم استخدامها لتضفي لمساتها النهائية على الحمامات.</p>
+			<button class="btn btn_center js-popup-enter js-new-gallery" data-popup="js-popup-new-gallery" data-index="0">انظر الصور غرفة</button>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-finance">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>يقدّم برنامج الاستثمار في الغرف الفندقية في كمبينسكي إميرالد بالاس بالم جميرا، فرصة فريدة لاستثمار آمن، يضمن دخلاً مستداماً مع آفاق معدلات نمو ضخمة.</p>
+			<p>برنامج الاستثمار:</p>
+			<p>تتولى شركة "صن رايز بروبرتيز" والمملوكة بالكامل من قبل مجموعة إميرالد بالاس، ببيع الغرف الفندقية للأفراد على أساس الملكية الحرة وتزويدهم بسند ملكية مسجل.</p>
+			<p>وعند شراء الغرف الفندقية، يقوم المشتري بتأجيرها للشركة المشغّلة (المملوكة بالكامل من قبل مجموعة إميرالد بالاس) والتي ستعمل بوصفها شركة لإدارة الأصول، وكذلك الشركة المستأجرة والمشغّلة كمبينسكي إميرالد بالاس بالم جميرا.</p>
+			<p>وستتم إدارة عمليات الاستئجار والتشغيل وفق اتفاقية إدارة فندقية طويلة الأمد خاصة بمجموعة فنادق كمبينسكي.</p>
+			<p>كما ستقوم الشركة المستأجرة والمشغّلة باستئجار مرافق الفندق الأخرى مثل المطاعم والمقاهي والمنتجع الصحي ونوادي اللياقة البدنية والشاطئ ونوادي الأطفال، بالإضافة إلى جميع المنشآت الضرورية التي تضمن تشغيلاً متكاملاً للفندق. ومن الجدير بالذكر أن هذه الشركة المستأجرة والمشغّلة تقوم بتشغيل الفندق بشكل كلي، وحاصلة على جميع الرخص الضرورية من هيئة السياحة والتسويق التجاري في دبي ومن جميع الهيئات ذات الصلة.</p>
+			<p>وبعد جمع 40% من صافي الدخل الإجمالي الذي حققته جميع غرف الفندق، يتم توزيع الأرباح على كل مشتري بما يتناسب مع حصته، وبما يتلاءم مع معدل مساحة الغرفة التي يملكها مقابل المساحة الكلية للغرف. وإضافة إلى ما سبق، لا يتحمل المشتري أية رسوم لها علاقة بأعمال الصيانة والتصليح والخدمات أو بتشغيل الغرفة الفندقية التي يملكها</p>
+			<p>ومن جهتها، تتكفّل الشركة المستأجرة والمشغّلة بتسديد الإيجار مباشرة إلى حساب البائع، جنباً إلى جنب مع حسابات الإدارة الفصلية. كما ستتولى واحدة من الشركات الأربع الكبرى المتخصصة في تدقيق الحسابات  عملية مراجعة الحسابات السنوية.</p>
+			<p>وأخيراً، يحق لمالك الغرفة الفندقية في كمبينسكي إميرالد بالاس بالم جميرا، قضاء 14 ليلة مجاناً في السنة الأولى في الغرفة التي يملكها، والاستمتاع بالمزايا التي يوفرها نادي إميرالد بالاس بوصفه عضواً فيه.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-developer">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>تعتبر مجموعة إميرالد بالاس الشريك الاستراتيجي لسلسلة فنادق كمبينسكي، وجزءاً أساسياً من مجموعة من الشركات المترابطة التي استطاعت تطوير وبناء سلسلة من المشاريع السكنية الناجحة في كل من أوكرانيا والإمارات العربية المتحدة وروسيا منذ العالم 1996.</p>
+			<p> كما استطاعت المجموعة إنجاز حوالي 40 مشروعاً عقارياً رئيسياً تضم أكثر من 10.000 وحدة سكنية موزعة على مساحة تزيد عن المليون متر مربع. أما في الوقت الحاضر فتملك الشركة 8 مشاريع تطويرية جديدة قيد الإنشاء، و10 مشاريع أخرى قيد الدراسة.</p>
+			<p>وتشمل مشاريع الشركة في دبي:</p>
+			<p>• كمبينسكي ريزيدنس – وهو مشروع تطويري فخم وجزء من مجمع كمبينسكي ريزيدنس وشقق فندقية إميرالد بالاس الفخم، يضم 244 وحدة سكنية موزعة بين شقق ومنازل خاصة وبنتهاوس وفلل، وتبلغ مساحته الإجمالية نحو 130.000 متر مربع. وسيتمتع سكان هذا المشروع بخدمات فندقية متكاملة ومميزة بما فيها خدمة الاستقبال وخدمة كبار الشخصيات. بالإضافة إلى مجموعة من المرافق الأخرى تشمل شواطئ خاصة، ومطاعم وبارات وغرف اجتماعات مميزة. ومن الجدير بالذكر أن هذا المشروع حاز على جائزة "أفضل شقق بنتهاوس في الشرق الأوسط" لثلاث سنوات على التوالي.</p>
+			<p>• فندق كمبينسكي الخليج التجاري – يتخذ هذا الفندق موقعه المميز وسط منطقة الخليج التجاري، أحد أحدث مناطق الأعمال في دبي، وبالقرب من ممرها المائي الرائع وعلى مسافة قصيرة من برج خليفة أشهر المعالم المعمارية في دبي. ويضم هذا الفندق الفخم ذو الخمس نجوم 260 غرفة وجناحاً ليثري منطقة الخليج التجاري بمفهومه الخاص للفخامة والرفاهية. وبتصميمه العصري الحديث، ولمساته العريقة سيوفر الفندق مجموعة من المطاعم والبارات ومنتجعاً صحياً ونادياً للياقة البدينة ومرافق خاصة بالأعمال. لذلك سيكون هذا الفندق وجهة تجذب السياح ورجال الأعمال على حد سواء.</p>
+			<p>• فندق وريزيدنس برج نخلة جبل علي – في مكان بارز فوق جزيرة نخلة جبل علي، يتخذ هذا المشروع الأكبر من نوعه في الجزيرة موقعه، ليضم فندق خمس نجوم ومنتجعاً صحياً يشمل على 450 غرفة فندقية ووحدة سكنية.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-mace">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>This reputed British project management company is behind some of the world’s most famous hotels, airports and other complex projects. Their portfolio includes the Venetian in Macau, London’s Great Northern, the Cumberland Hotel, The Shard, the Savoy refurbishment and Heathrow’s Terminal 5 as well as the historic Shangri-La in Paris and the Überseequartier in Hamburg’s Hafencity to name but a few.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-hyder">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Hyder Consulting is a British design and engineering consultancy renowned for working on some of the world’s most iconic buildings and structures. These include Sydney Harbour Bridge, Tower Bridge in London and the world’s tallest building, Burj Khalifa, in Dubai and many others.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-atkins">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>This British engineering, design, planning and project management company has undertaken major projects in over 150 countries. W.S. Atkins’ notable projects include the Burj Al Arab, The Address Hotels in Downtown Dubai and the London 2012 Olympics Park.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-leointer">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>These prominent consultants from Thailand are responsible for the interior design of the iconic Emirates Palace Hotel in Abu Dhabi and have completed 15 projects for Kempinski, many royal palaces and a vast number of luxurious properties throughout the world.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-molon">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>This fine Italian furniture company has provided furniture pieces for several luxurious hotels, such as the Grand Hyatt Erawan in Bangkok, the Four Seasons Hotel in Berlin, the Breaker’s Hotel in Palm Beach and the St. Regis in Rome. Francesco Molon’s exquisite furniture also graces the Kremlin and many executive offices and palaces worldwide.</p>
+		</div>
+	</div>
+</div>
+<!-- notify -->
+<div class="notify js-notify">ارسلت</div>
+<!-- load scripts -->
+<script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script>
+	var map;
+	function initialize() {
+		var isDraggable = $(document).width() > 1024 ? true : false;
+			posCenter = new google.maps.LatLng(25.119210, 55.122577),
+			posMarker = new google.maps.LatLng(25.1160, 55.110);
+		var mapOptions = {
+			zoom: 13,
+			center: posCenter,
+			scrollwheel: false,
+			draggable: isDraggable
+		}
+		var image = 'img/marker.png';
+		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		var marker = new google.maps.Marker({
+			position: posMarker,
+			map: map,
+			icon: image
+		});
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script type="text/javascript" charset="windows-1251" src="http://istat24.com/js/replace.js"></script>
+<script type="text/javascript">doReplaceIstat(671);</script>
+</body>
+</html>
