@@ -7,7 +7,8 @@ head.ready(function() {
 		enter = $('.js-popup-enter'),
 		popup = $('.js-popup'),
 		close = $('.js-popup-close'),
-		sl    = $('.js-sl');
+		sl    = $('.js-sl'),
+		body   = $('body');
 	enter.on('click', function () {
 		var _this = $(this),
 			el = _this.data('popup');
@@ -15,8 +16,16 @@ head.ready(function() {
 		$('.' + el).fadeIn(200);
 		body.addClass('no-scroll');
 		// gallery
-		if (el == 'js-popup-gallery') {
+		if (el == 'js-popup-gallery' || el == 'js-popup-new-gallery') {
 			var index = _this.data('index');
+			if(!sl.hasClass('is-inited') && body.hasClass('is-arabic')) {
+				sl.addClass('is-inited');
+				sl.slick({
+					slide: '.js-sl-item',
+					rtl: true
+				});
+				sl.slick('slickGoTo', index);
+			}
 			if (!sl.hasClass('is-inited')) {
 				sl.addClass('is-inited');
 				sl.slick({
@@ -24,7 +33,7 @@ head.ready(function() {
 					fade: true
 				});
 				sl.slick('slickGoTo', index);
-			};
+			}
 			sl.slick('slickGoTo', index);
 		};
 		return false;
@@ -40,8 +49,8 @@ head.ready(function() {
 		    var status = localStorage.getItem('validate');
 		    console.log(status);
 		    if (!status == 'yes' || status == null) {
-		 	welcome.fadeIn();
-		 	body.addClass('no-scroll');
+		    	welcome.fadeIn();
+		    	body.addClass('no-scroll');
 		    };
 		} else {
 			body.removeClass('no-scroll');
@@ -62,7 +71,8 @@ head.ready(function() {
 			post_data = {
 				'name': $('#form-welcome input[name=name]').val(),
 				'email': $('#form-welcome input[name=email]').val(),
-				'phone': $('#form-welcome input[name=phone]').val()
+				'phone': $('#form-welcome input[name=phone]').val(),
+				'referer': $('#form-welcome input[name=referer]').val()
 			};
 			//Ajax post data to server
 			$.post('send.php', post_data, function(response){
@@ -75,7 +85,7 @@ head.ready(function() {
 					notify.fadeIn();
 					setTimeout(function () {
 						notify.fadeOut();
-					}, 2000);
+					}, 2000); dataLayer.push({'event': 'form_welcome_send'});
 				}
 			}, 'json');
 			// localstorage
@@ -96,7 +106,8 @@ head.ready(function() {
 				'name': $('#form-feedback input[name=name]').val(),
 				'email': $('#form-feedback input[name=email]').val(),
 				'phone': $('#form-feedback input[name=phone]').val(),
-				'comment': $('#form-feedback textarea[name=comment]').val()
+				'comment': $('#form-feedback textarea[name=comment]').val(),
+				'referer': $('#form-welcome input[name=referer]').val()
 			};
 			//Ajax post data to server
 			$.post('send.php', post_data, function(response){
@@ -109,7 +120,7 @@ head.ready(function() {
 					notify.fadeIn();
 					setTimeout(function () {
 						notify.fadeOut();
-					}, 2000);
+					}, 2000); dataLayer.push({'event': 'form_feedback_send'});
 				}
 			}, 'json');
 			return false;
@@ -123,7 +134,8 @@ head.ready(function() {
 				'name': $('#form-footer input[name=name]').val(),
 				'email': $('#form-footer input[name=email]').val(),
 				'phone': $('#form-footer input[name=phone]').val(),
-				'comment': $('#form-footer textarea[name=comment]').val()
+				'comment': $('#form-footer textarea[name=comment]').val(),
+				'referer': $('#form-welcome input[name=referer]').val()
 			};
 			//Ajax post data to server
 			$.post('send.php', post_data, function(response){
@@ -134,7 +146,7 @@ head.ready(function() {
 					notify.fadeIn();
 					setTimeout(function () {
 						notify.fadeOut();
-					}, 2000);
+					}, 2000); dataLayer.push({'event': 'form_footer_send'});
 				}
 			}, 'json');
 			return false;
@@ -163,6 +175,9 @@ head.ready(function() {
 		}, {
 			label: '+7 (Россия)',
 			value: '+7'
+		}, {
+			label: '+971 (Объединенные Арабские Эмираты)',
+			value: '+971'
 		}, {
 			label: '+966 (Саудовская Аравия)',
 			value: '+966'
@@ -193,6 +208,9 @@ head.ready(function() {
 		}, {
 			label: '+7 (Russia)',
 			value: '+7'
+		}, {
+		    label: '+971 (United Arab Emirates)',
+			value: '+971'
 		}, {
 			label: '+966 (Saudi Arabia)',
 			value: '+966'
@@ -270,4 +288,3 @@ head.ready(function() {
 	});
 
 });
-

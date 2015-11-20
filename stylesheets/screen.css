@@ -1,0 +1,85 @@
+/*
+Error: No files were found in the load path matching "icons/*.png". Your current load paths are: C:/Users/Profi/Desktop/projects/emerald-new-landing/images
+        on line 2 of C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/lib/_sprites.sass
+        from line 8 of C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/lib/_base.scss
+        from line 2 of C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/screen.sass
+
+1: // done by Coderiver.com.ua
+2: @import lib/base
+3: @import reset
+4: @import common
+5: @import slick
+
+Backtrace:
+C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/lib/_sprites.sass:2
+C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/lib/_base.scss:8
+C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/screen.sass:2
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/sprite_importer.rb:89:in `files'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/sass_extensions/sprites/sprite_map.rb:19:in `from_uri'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-1.0.3/lib/compass/sass_extensions/functions/sprites.rb:78:in `sprite_map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/script/tree/funcall.rb:139:in `_perform'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:468:in `visit_variable'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:20:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/engine.rb:268:in `render'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:328:in `block in watch'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.0/lib/listen/listener.rb:291:in `call'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.0/lib/listen/listener.rb:291:in `_process_changes'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.0/lib/listen/listener.rb:255:in `block in _wait_for_changes'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.0/lib/listen/listener.rb:238:in `loop'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.0/lib/listen/listener.rb:238:in `_wait_for_changes'
+C:/Ruby193/lib/ruby/gems/1.9.1/gems/listen-2.10.0/lib/listen/listener.rb:327:in `block in _start_wait_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: No files were found in the load path matching \"icons/*.png\". Your current load paths are: C:/Users/Profi/Desktop/projects/emerald-new-landing/images\A         on line 2 of C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/lib/_sprites.sass\A         from line 8 of C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/lib/_base.scss\A         from line 2 of C:/Users/Profi/Desktop/projects/emerald-new-landing/sass/screen.sass\A \A 1: // done by Coderiver.com.ua\A 2: @import lib/base\A 3: @import reset\A 4: @import common\A 5: @import slick"; }

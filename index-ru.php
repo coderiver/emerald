@@ -1,0 +1,778 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Emerald Palace Kempinski</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" media="all" href="css/jquery-ui.min.css" >
+	<link rel="stylesheet" media="all" href="css/jquery-ui.theme.min.css" >
+	<link rel="stylesheet" media="all" href="css/screen.css" >
+</head>
+<body>
+
+<!-- Google Tag Manager -->
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P6VXSV"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-P6VXSV');</script>
+
+<!-- End Google Tag Manager -->
+
+
+<!-- wrapper -->
+<div class="wrapper">
+	<!-- main -->
+	<div id="main" class="main">
+		<div class="main__video">
+			<video class="main__video-el" autoplay="autoplay" title="video" loop="loop">
+				<source src="video/video.webm" type="video/webm" />
+				<source src="video/video.mp4" type="video/mp4" />
+				<source src="video/video.ogv" type="video/ogg" />
+			</video>
+		</div>
+		<div class="main__in">
+			<!-- center -->
+			<div class="center">
+				<!-- header -->
+				<header class="header">
+					<!-- logo -->
+					<div class="logo"></div>
+					<!-- btn-menu -->
+					<button class="btn-menu js-popup-enter" data-popup="js-popup-menu">
+						<span class="btn-menu__title">меню</span>
+						<i class="btn-menu__icon"></i>
+					</button>
+					<div class="header__right">
+						<!-- lang -->
+						<div class="lang">
+							<a href="index.php">eng</a>
+							<a href="index-ru.php">рус</a>
+							<a href="index-ar.php">العربية</a>
+                            <a href="index-ch.php">中文</a>
+						</div>
+						<!-- phone -->
+						<a class="phone" href="tel:+971503593388"><span id="istat_0">+971-50-3593388<br>
+						+971-50-3593366</span></a>
+					</div>
+				</header>
+				<div class="main__title">Инвестируйте</div>
+				<div class="main__title-sub">в недвижимость ДубаЯ</div>
+				<!-- begin guarant  -->
+				<div class="guarant">
+					<div class="guarant__bl">
+						<div class="guarant__frame">
+							<div class="guarant__in">
+								<p>5% гарантированного дохода</p>
+								<p>на протяжении строительства</p>
+							</div>
+						</div>
+					</div>
+					<div class="guarant__bl">
+						<div class="guarant__frame">
+							<div class="guarant__in">
+								<p>5% гарантированного дохода</p>
+								<p>дохода на протяжении первых 5 лет</p>
+							</div>
+						</div>
+					</div>
+					<div class="guarant__bl">
+						<div class="guarant__frame">
+							<div class="guarant__in">
+								<p>14-15% прогнозируемый</p>
+								<p>годовой доход</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end guarant -->
+				<!-- begin project-finance  -->
+				<div class="project-finance">
+					<p class="project-finance__text">Проект финансируется emirates nbd</p>
+					<a href="#" class="project-finance__link"><img src="img/emirates.png" alt="emirates"></a>
+				</div>
+				<!-- end project-finance -->
+			</div>
+		</div>
+	</div>
+	<!-- bg -->
+	<div id="finance" class="bg no-top-pad">
+		<!-- center -->
+		<div class="center center_middle">
+			<!-- finance -->
+			<div class="finance">
+				<div class="finance__title">ВЕСОМЫЙ ФИНАНСОВЫЙ АКТИВ</div>
+				<div class="finance__in">
+					<div class="finance__col-title">Что вы получаете</div>
+					<div class="finance__col">
+						<div class="finance__item">
+							<div class="finance__counter">1</div>
+							<div class="finance__content">Надежная инвестиция с <span>получением права собственности</span> и последующей выдачей свидетельства.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">2</div>
+							<div class="finance__content"><span>40% от общего дохода</span>,  полученного от управления всеми гостиничными номерами и вилами, будут выплачены напрямую инвесторам.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">3</div>
+							<div class="finance__content"><span>Kempinski будет платить арендную плату</span> непосредственно на счета инвесторов.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">4</div>
+							<div class="finance__content"><span>Инвестор не несет расходов</span> на обслуживание отеля.</div>
+						</div>
+						<div class="finance__shadow"></div>
+					</div>
+					<div class="finance__col">
+						<div class="finance__item">
+							<div class="finance__counter">5</div>
+							<div class="finance__content"><span>14 бесплатных ночей</span> в году в своем номере и особые привилегии членов клуба Emerald Palace Club. </div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">6</div>
+							<div class="finance__content">Гибкая система оплаты.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">7</div>
+							<div class="finance__content">Дата сдачи объекта - <span>2-й квартал 2016</span>.</div>
+						</div>
+						<div class="finance__item">
+							<div class="finance__counter">8</div>
+							<div class="finance__content">Стоимость инвестиции в супер люксовый проект от <span>2.88 млн. AED</span>.</div>
+						</div>
+						<div class="finance__shadow"></div>
+					</div>
+				</div>
+				<div class="finance__more">
+					<a class="btn btn_gold js-popup-enter" data-popup="js-popup-content-finance" href="#">ПОДРОБНЕЕ</a>
+				</div>
+			</div>
+			<!-- offer -->
+			<div class="offer">
+				<div class="offer__wrap">
+					<div class="offer__in">
+						<div class="offer__title">эксклюзивное предложение</div>
+						<button class="btn btn_red js-popup-enter" data-popup="js-popup-feedback" id="1">Получить</button>
+					</div>
+				</div>
+				<!-- phone -->
+				<a class="phone" href="tel:+971503593388"><span id="istat_1">+971-50-3593388</span></a>
+			</div>
+		</div>
+	</div>
+	<!-- blocks -->
+	<div id="luxury" class="blocks no-bottom-pic">
+		<!-- center -->
+		<div class="center">
+			<div class="blocks__list">
+				<!-- block -->
+				<div class="block block_1">
+					<div class="block__content">
+						<div class="block__title">МИР РОСКОШИ</div>
+						<div class="block__text">
+							<p>Впечатляющая гостиница Emerald Palace Kempinski с площадью в 100,000 кв.м. состоит из 347 роскошных номеров, 36 из которых являются номерами-люкс.</p>
+							<p>Восемь королевских вилл, окруженные безупречным ландшафтными тропическими садами, имеют ошеломляющий вид на лагуну острова Palm Jumeirah.</p>
+							<p>Впечатляющая гостиница Emerald Palace Kempinski с площадью в 100,000 кв.м. состоит из 347 роскошных номеров, 36 из которых являются номерами-люкс.</p>
+						</div>
+						<div class="block__more">
+							<a class="js-popup-enter" data-popup="js-popup-content-luxury" href="#">Подробнее...</a>
+						</div>
+					</div>
+					<!-- block -->
+					<a class="block block_5 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="3" href="#">
+						<div class="block__pic">
+							<img src="img/pic4.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<!-- block -->
+				<a class="block block_2 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="0" href="#">
+					<div class="block__pic">
+						<img src="img/pic1.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_3 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="1" href="#">
+					<div class="block__pic">
+						<img src="img/pic2.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_4 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="2" href="#">
+					<div class="block__pic">
+						<img src="img/pic3.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_6 block_gallery js-popup-enter" data-popup="js-popup-gallery" data-index="4" href="#">
+					<div class="block__pic">
+						<img src="img/pic5.jpg" alt="">
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- blocks -->
+	<div class="blocks no-margin">
+		<!-- center -->
+		<div class="center">
+			<div class="blocks__ttl">Фото интерьеров номеров</div>
+			<div class="blocks__list">
+				<!-- block -->
+				<div class="block block_1 is-right">
+					<div class="block__content">
+						<!-- <div class="block__title">READY GUEST ROOM INTERIORS</div> -->
+						<div class="block__text">
+							<p>Средняя площадь номера в гостинице</p>
+							<p>Emerald Palace Kempinksi составляет более чем 100 кв.м. и обставлен мебелью ручной работы, изготовленной на заказ в лучших традициях итальянских мастеров, всемирно известной компанией “Франческо Молон”.</p>
+							<p>Интерьер дизайнеры от “Франческо Молон” в тесном сотрудничестве с дизайнерской группой от Leo International создали чрезвычайное впечатляющее оформление в этой шикарной гостинице.</p>
+							<p>Вся мебель изготовлена в Италии с соблюдением богатых традиций изготовления классической мебели.</p>
+						</div>
+						<div class="block__more">
+							<a class="js-popup-enter" data-popup="js-popup-content-luxury" href="#">Подробнее...</a>
+						</div>
+					</div>
+					<!-- block -->
+					<a class="block block_5 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="14" href="#">
+						<div class="block__pic">
+							<img src="img/pic16.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<!-- block -->
+				<a class="block block_2 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="0" href="#">
+					<div class="block__pic">
+						<img src="img/pic12.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_3 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="35" href="#">
+					<div class="block__pic">
+						<img src="img/pic17.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_4 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="2" href="#">
+					<div class="block__pic">
+						<img src="img/pic14.jpg" alt="">
+					</div>
+				</a>
+				<!-- block -->
+				<a class="block block_6 block_gallery js-popup-enter" data-popup="js-popup-new-gallery" data-index="1" href="#">
+					<div class="block__pic">
+						<img src="img/pic15.jpg" alt="">
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- bg -->
+	<div class="bg">
+		<!-- center -->
+		<div class="center">
+			<!-- more -->
+			<div class="more">
+				<a class="btn btn_dark" href="http://emeraldpalacere.com/rus/" target="_blank">Детальнее на сайте</a>
+			</div>
+		</div>
+	</div>
+	<!-- map -->
+	<div id="location" class="map">
+		<div class="map__data">
+			<div class="map__title">Расположение</div>
+			<div class="map__text">Emerald Palace Real Estate Broker Kempinski Residences & Apartments Palm Jumeirah - Ground Floor - PO Box 214991 Dubai - UAE</div>
+		</div>
+		<div class="map__wrap">
+			<div id="map-canvas" class="map__canvas"></div>
+		</div>
+	</div>
+	<!-- builder -->
+	<div id="developer" class="builder">
+		<!-- center -->
+		<div class="center center_small">
+			<div class="builder__content">
+				<div class="builder__title">Застройщик</div>
+				<div class="builder__text">
+					<p>Emerald Palace Group, являющаяся стратегическим партнером Kempinski S.A., входит в группу ассоциированных компаний, которая с 1996г. успешно осуществляет в качестве застройщика жилые и коммерческие проекты в Украине, ОАЭ и России.</p>
+					<p>Группа компаний завершила порядка 40 комплексных проектов, состоящих из более чем 10,000 жилых владений, общей площадью более миллиона квадратных метров и в настоящее время осуществляет строительство восьми проектов, а еще десять находятся на стадии разработки.</p>
+				</div>
+				<div class="builder__more">
+					<a class="js-popup-enter" data-popup="js-popup-content-developer" href="#">Подробнее...</a>
+				</div>
+			</div>
+			<div class="builder__logos">
+				<div class="builder__logos-item">
+					<img src="img/logo-epg.png" alt="">
+				</div>
+				<div class="builder__logos-item">
+					<img src="img/logo-kempinski.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- partners -->
+	<div class="partners">
+		<!-- center -->
+		<div class="center center_middle">
+			<div class="partners__title">Партнеры</div>
+			<div class="partners__list">
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-mace.png" alt="">
+					</div>
+					<div class="partners__item-title">Mace International</div>
+					<div class="partners__position">Управляющий проектом</div>
+					<div class="partners__more">
+						<a class="js-popup-enter" data-popup="js-popup-content-mace" href="#">Подробнее...</a>
+					</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-hyder.png" alt="">
+					</div>
+					<div class="partners__item-title">Hyder consulting</div>
+					<div class="partners__position">Архитектор/инженер проекта</div>
+					<div class="partners__more">
+						<a class="js-popup-enter" data-popup="js-popup-content-hyder" href="#">Подробнее...</a>
+					</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-atkins.png" alt="">
+					</div>
+					<div class="partners__item-title">W.S.atkins overseas</div>
+					<div class="partners__position">Проектно-дизайнерская группа</div>
+					<div class="partners__more">
+						<a class="js-popup-enter" data-popup="js-popup-content-atkins" href="#">Подробнее...</a>
+					</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-leointer.png" alt="">
+					</div>
+					<div class="partners__item-title">Leo international</div>
+					<div class="partners__position">Консультант по дизайну интерьера</div>
+					<div class="partners__more">
+						<a class="js-popup-enter" data-popup="js-popup-content-leointer" href="#">Подробнее...</a>
+					</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-molon.png" alt="">
+					</div>
+					<div class="partners__item-title">Francesco molon</div>
+					<div class="partners__position">Производитель мебели</div>
+					<div class="partners__more">
+						<a class="js-popup-enter" data-popup="js-popup-content-molon" href="#">Подробнее...</a>
+					</div>
+				</div>
+				<div class="partners__item">
+					<div class="partners__pic">
+						<img src="img/partner-tlnint.png" alt="">
+					</div>
+					<div class="partners__item-title">The Luxury Network</div>
+					<div class="partners__position">Маркетинг</div>
+					<div class="partners__more">
+						<a href="http://www.theluxurynetworkinternational.com/" target="_blank">Подробнее...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- bg -->
+	<div id="contacts" class="bg bg_bigger">
+		<!-- center -->
+		<div class="center center_small">
+			<!-- footer -->
+			<div class="footer">
+				<div class="footer__l">
+					<div class="footer__contacts">
+						<!-- contacts -->
+						<div class="contacts">
+							<div class="contacts__title">Контактная информация</div>
+							<div class="contacts__text">
+								<p><span>Для получения информации <br>и по вопросам приобретения <br>обращайтесь:</span></p>
+								<p>Emerald Palace Real Estate Broker <br>Kempinski Residences & <br>Apartments Palm Jumeirah - Ground <br>Floor - PO Box 214991 Dubai - UAE</p>
+							</div>
+							<ul class="contacts__list">
+								<span id="istat_2"><li><i class="contacts__phone1"></i><a href="tel:+971503593388">+971-50-3593388</a><br><a href="tel:+971503593366">+971-50-3593366</a></li>
+                            </span>
+								<li><i class="contacts__mail"></i><a href="mailto:info@emeraldpalacere.com">info@emeraldpalacere.com</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__form">
+						<!-- form -->
+						<form id="form-footer" class="form form_footer">
+							<div class="form__title">Получите эксклюзивное предложение</div>
+							<div class="form__in">
+								<!-- field -->
+								<div class="field">
+									<div class="field__in">
+										<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
+									</div>
+								</div>
+								<!-- field -->
+								<div class="field">
+									<div class="field__in">
+										<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
+									</div>
+								</div>
+								<!-- field -->
+								<div class="field">
+									<div class="field__in">
+										<input class="input js-autocomplete js-mask js-ru" type="text" name="phone" data-validation="required" data-validation-error-msg="Обязательное поле">
+									</div>
+								</div>
+								<!-- field -->
+								<div class="field field_mb30">
+									<div class="field__in">
+										<textarea class="input input_area" name="comment" placeholder="Комментарии"></textarea>
+									</div>
+								</div>
+								<input type="hidden" value="<?php echo $_SERVER["HTTP_REFERER"]; ?>" name="referer">
+								<button class="btn btn_small btn_wide" id="2">ОТПРАВИТЬ</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="footer__down">
+					<!-- logo -->
+					<div class="logo"></div>
+					<nav class="footer__nav">
+						<a href="#main">Главная</a>
+						<a href="#finance">Финансовый актив</a>
+						<a href="#contacts">Контакты</a>
+						<a href="#luxury">Мир роскоши</a>
+						<a href="#location">Расположение</a>
+						<a href="#developer">Застройщик</a>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-welcome">
+	<div class="popup__in">
+	<button class="popup__close js-popup-close"></button>
+		<!-- form -->
+		<form id="form-welcome" class="form">
+			<div class="form__title">Сэкономьте время - <br>оставьте свои контакты <br>и мы свяжемся с Вами</div>
+			<div class="form__in">
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field field_mb30">
+					<div class="field__in">
+						<input class="input js-autocomplete js-mask js-ru" type="text" name="phone" data-validation="required" data-validation-error-msg="Обязательное поле">
+					</div>
+				</div>
+				<input type="hidden" value="<?php echo $_SERVER["HTTP_REFERER"]; ?>" name="referer">
+				<button class="btn btn_small btn_wide" type="submit" id="3">продолжить</button>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-feedback">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- form -->
+		<form id="form-feedback" class="form">
+			<div class="form__title">Получите эксклюзивное <br>предложение</div>
+			<div class="form__in">
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="name" placeholder="Имя" data-validation="required" data-validation-error-msg="Обязательное поле">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input" type="text" name="email" placeholder="Email" data-validation="email" data-validation-error-msg="Обязательное поле">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field">
+					<div class="field__in">
+						<input class="input js-autocomplete js-mask js-ru" type="text" name="phone" data-validation="required" data-validation-error-msg="Обязательное поле">
+					</div>
+				</div>
+				<!-- field -->
+				<div class="field field_mb30">
+					<div class="field__in">
+						<textarea class="input input_area" name="comment" placeholder="Комментарии"></textarea>
+					</div>
+				</div>
+				<input type="hidden" value="<?php echo $_SERVER["HTTP_REFERER"]; ?>" name="referer">
+				<button class="btn btn_small btn_wide" id="5">ОТПРАВИТЬ</button>
+			</div>
+		</form>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup popup_menu js-popup js-popup-menu">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- menu -->
+		<div class="menu">
+			<div class="menu__title">МЕНЮ</div>
+			<div class="menu__list">
+				<a class="btn js-popup-close" href="#main">ГЛАВНАЯ</a>
+				<a class="btn js-popup-close" href="#luxury">МИР РОСКОШИ</a>
+				<a class="btn js-popup-close" href="#location">РАсположение</a>
+				<a class="btn js-popup-close" href="#finance">финансовый актив</a>
+				<a class="btn js-popup-close" href="#developer">Застройщик</a>
+				<a class="btn js-popup-close" href="#contacts">Контакты</a>
+			</div>
+		</div>
+		<!-- offer -->
+		<div class="offer">
+			<div class="offer__wrap">
+				<div class="offer__in">
+					<div class="offer__title">эксклюзивное предложение</div>
+					<button class="btn js-popup-enter" data-popup="js-popup-feedback" id="6">Получить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup popup_gallery js-popup js-popup-gallery">
+	<button class="popup__close js-popup-close"></button>
+	<!-- slider -->
+	<div class="slider js-sl">
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_01.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_02.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_03.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_04.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_05.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_06.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_07.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_08.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_09.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_10.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_11.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_12.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_13.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_14.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_15.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_16.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_17.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_18.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_19.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_20.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_21.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_22.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_23.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/gallery/img_24.jpg)"></div>
+	</div>
+</div>
+<!-- popup new gallery -->
+<div class="popup popup_gallery js-popup js-popup-new-gallery">
+	<button class="popup__close js-popup-close"></button>
+	<!-- slider -->
+	<div class="slider js-sl">
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/1.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/2.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/3.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/4.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/5.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/6.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/7.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/8.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/9.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/10.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/11.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/12.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/13.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/14.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/15.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/16.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/17.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/18.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/19.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/20.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/21.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/22.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/23.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/24.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/25.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/26.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/27.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/28.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/29.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/30.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/31.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/32.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/33.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/34.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/35.jpg)"></div>
+		<div class="slider__item js-sl-item" style="background-image: url(img/new-gallery/36.jpg)"></div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-luxury">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Впечатляющая гостиница Emerald Palace Kempinski с площадью в 100,000 кв.м. состоит из 347 роскошных номеров, 36 из которых являются номерами-люкс. Восемь королевских вилл, окруженные безупречным ландшафтными тропическими садами, имеют ошеломляющий вид на лагуну острова Palm Jumeirah.</p>
+			<p>Широкое разнообразие международных ресторанов, фирменных магазинов и кинотеатра в гостинице обеспечивают богатый выбор кулинарных изысков и иных развлечений.</p>
+			<p>Гости могут насладиться различными водными видами спорта, такими как подводное плавание, парусный спорт, прогулки на яхте и рыбалка в Персидском заливе. Йога, пилатес и игры с мячом также доступны в детском и подростковом клубах.</p>
+			<p>Наконец, что не менее важно, гостиница также обладает первоклассным бизнес центром и конференц-залами, что делает ее ещё привлекательнее не только для отдыхающих туристов, но также для корпоративных и деловых посетителей.</p>
+			<p>Гостиница выгодно отличается своим великолепным дизайном и королевским интерьером.</p>
+			<p>Гостиница выгодно отличается своим великолепным дизайном и королевским интерьером. Вдохновленная XVIII веком континентальной Европы, известная компания-дизайнер, Leo International, разработала интерьер Emerald Palace Kempinski так, чтобы отразить величественную эру Людовика XV, добавив при этом современный оттенок, привлекающий самых взыскательных гостей.</p>
+			<p>Хрустальные люстры, мрамор и дерево, покрытое сусальным золотом или серебром, с богатой драпировкой, изящными цветовыми схемами и просторными территориями должным образом восхваляют роскошный образ жизни.</p>
+			<p>Классический дизайн гостиницы присутствует также и в Резиденциях и Гостиничных Апартаментах Kempinski Palm Jumeirah, построенных в таком же архитектурном стиле и расположенных на соседнем участке.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-interior">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Средняя площадь номера в гостинице Emerald Palace Kempinksi составляет более чем 100 кв.м. и обставлен мебелью ручной работы, изготовленной на заказ в лучших традициях итальянских мастеров, всемирно известной компанией “Франческо Молон”. Интерьер дизайнеры от “Франческо Молон” в тесном сотрудничестве с дизайнерской группой от Leo International создали  чрезвычайное впечатляющее оформление в этой шикарной гостинице. Вся мебель изготовлена в Италии с соблюдением богатых традиции изготовления классической мебели.</p>
+			<p>Занавеси, драпировки, хрустальные люстры, ковры и полированные мраморные покрытия – все тщательно подобрано для  создания атмосферу элегантности и роскоши.</p>
+			<p>Пышные драпировки, белье, изысканная столовая посуда и  хрусталь наилучшим образом дополняют интерьер, а такие известные бренды производителей аксессуаров, как Villeroy &amp; Boch и Grohe, добавляют финальные штрихи ванным комнатам.</p>
+			<button class="btn btn_center js-popup-enter js-new-gallery" data-popup="js-popup-new-gallery" data-index="0">Посмотреть фотографии номеров</button>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-finance">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Программа инвестиций в гостиничные номера Emerald Palace Kempinski Palm Jumeirah дает уникальную возможность осуществления надежной инвестиции, гарантирующей стабильный доход с огромным потенциалом роста.</p>
+			<p>Схема осуществления инвестиции:</p>
+			<p><strong>Sunrise Properties Ltd. (Продавец)</strong>, являющаяся 100% дочерней компанией EPG Ltd., продает Гостиничный номер индивидуальному Покупателю на правах полной собственности, c последующей выдачей зарегистрированного государством правового титула.</p>
+			<p>После приобретения Гостиничного номера Покупатель сдает его в аренду оперирующей компании (100% дочерней компанией EPG Ltd.), которая является 100% дочерней компанией EPG Ltd., будет управлять активами и выступать в качестве Арендатора и Оператора в Emerald Palace Kempinski Palm Jumeirah.</p>
+			<p>Компания Kempinski S.A. будет управлять Арендатором и Оператором на основании действующего долгосрочного Договору об Управлении Гостиницей.</p>
+			<p>Арендатор и Оператор также берет в аренду все другие средства обслуживания гостиницы, такие как объекты F&B, СПА салон, спортзал, пляжный клуб, детский клуб и все установки, необходимые для обеспечения целостности объекта недвижимости в связи с его управлением. Арендатор и Оператор будет оперировать гостиницей как единым целым и получит лицензию от Департамента Туризма и Коммерческого Маркетинга Дубая (DTCM), а также иные необходимые разрешения и лицензии соответствующих полномочных органов.</p>
+			<p>40% от всего дохода, полученного от оперирования всех гостиничных номеров, формирует единый фонд, из которого индивидуальному Покупателю полагается пропорциональная доля, равная соотношению площади приобретенного им Гостиничного номера к общей площади всех гостиничных номеров. При этом Покупатель не несет никаких расходов связанных с содержанием, обслуживанием, ремонтом или оперированием своего Гостиничного номера.</p>
+			<p><strong>Арендатор и Оператор</strong> под управлением Kempinski S.A. на ежеквартальной основе будет осуществлять причитающуюся выплату арендой платы напрямую Покупателю, а также предоставит свою ежеквартальную отчетность и ежегодный аудиторский отчет, подготовленный одной из компаний Большой Четверки. Собственники гостиничных номеров в Emerald Palace Kempinski Palm Jumeirah смогут провести 14 бесплатных ночей в году и пользоваться особыми привилегиями членов клуба Emerald Palace Club.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-developer">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Emerald Palace Group, являющаяся стратегическим партнером Kempinski S.A., входит в группу ассоциированных компаний, которая с 1996г. успешно осуществляет в качестве застройщика жилые и коммерческие проекты в Украине, ОАЭ и России.</p>
+			<p>Группа компаний завершила порядка 40 комплексных проектов, состоящих из более чем 10,000 жилых владений, общей площадью более миллиона квадратных метров и в настоящее время осуществляет строительство восьми проектов, а еще десять находятся на стадии разработки.</p>
+			<p>Проекты Группы в Дубаю включают:</p>
+			<p>• Резиденции Kempinski – Резиденции Kempinski, являющиеся частью роскошного курортного комплекса Гостиницы и Резиденции Emerald Palace Kempinski, представляют собой фешенебельный объект, состоящий из 244 апартаментов, частных таунхаусов, пентхаусов и королевских вилл общей площадью порядка 130,000 кв.м. Жители могут насладиться полным спектром гостиничного обслуживания, консьерж-сервисом и VIP услугами. Дополнительные средства обслуживания включают в себя доступ на частный пляж, роскошные рестораны, бары, залы для проведения мероприятий и многое другое. Три года подряд Проект был отмечен наградой Всемирной Организацией Туризма как “Лучший Пентхаус на Ближнем Востоке”.</p>
+			<p>• Kempinski Business Bay Hotel – это 5-звездочная гостиница категории люкс, расположенная возле озера в центре Business Bay, самом современном деловом районе Дубая, недалеко от знаковой башни Burj Khalifa, Гостиница Kempinski Business Bay на 260 номеров и номеров-люкс представит району Business Bay стиль и роскошь бренда Kempinski. Разработанная в современном стиле, Гостиница будет иметь изысканные рестораны и бары, СПА-салон и спортзал, а также все необходимое для первоклассного отдыха и бизнеса.</p>
+			<p>• Palm Jebel Ali Tower, Hotel and Residences – спроектированная на лучшем месте береговой линии полумесяца острова The Palm Jebel Ali и являющаяся одним из крупных проектов на острове, Palm Jebel Ali Tower будет пятизвездочной гостиницей и СПА курортом, состоящим из 450 гостиничных номеров и резидентских владений.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-mace">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Эта знаменитая британская компания по управлению проектами работала по самым известным гостиничным проектам мира, проектам аэропортов и другим проектам комплексного строительства. Портфолио компании включает такие гостиницы как Venetian в Макао, London's Great Nothern, the Cumberland Hotel, проекты реконструкции The Shard, Savoy и пятого терминала лондонского аэропорта Хитроу, а также исторические гостиницы Shangri-la в Париже и комплекс Überseequartier в районе Hafencity Гамбурга и т.д.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-hyder">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Hyder Consulting является британской архитектурно-консалтинговой компанией, завоевавшей признание за осуществление ряда самых знаковых в мире зданий и построений, таких как Sydney Harbour Bridge, Tower Bridge в Лондоне и самое высокое здание в мире, Burj Khalifa в Дубае и многие другие.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-atkins">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Британская компания, осуществляющая инженерные работы, работы по дизайну, планированию и управлению проектами, которая успешно работала по крупным проектам в более чем 150 странах мира. Cреди самых крупных проектов компании W.S. Atkins такие, как гостиница Burj Al Arab, гостиница The Address в районе Downtown Dubai и Олимпийский парк Игр 2012 года в Лондоне.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-leointer">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Эта профессиональная компания-дизайнер из Таиланда, которая осуществила 15 проектов для Kempinski, королевские дворцы и многие другие роскошные объекты. Компания также полностью разработала дизайн интерьера такой знаменитой гостиницы, как Emirates Palace Hotel в Абу-Даби.</p>
+		</div>
+	</div>
+</div>
+<!-- popup -->
+<div class="popup js-popup js-popup-content-molon">
+	<div class="popup__in">
+		<button class="popup__close js-popup-close"></button>
+		<!-- content -->
+		<div class="content">
+			<p>Эта всемирно известная итальянская компания по производству классической мебели, которая обставила своей продукцией ряд роскошных гостиниц, таких как Grand Hyatt Erawan в Бангкоке, Four Seasons Hotel в Берлине, Breaker’s Hotel на Palm Beach, гостиница St. Regis в Риме и т.д. Изысканной мебелью от Francesco Molon обставлены также Кремль, частные дворцы и множество крупнейших офисов по всему миру.</p>
+		</div>
+	</div>
+</div>
+<!-- notify -->
+<div class="notify js-notify">Сообщение отправлено!</div>
+<!-- load scripts -->
+<script src="js/lib/head.js" data-headjs-load="js/init.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script>
+	var map;
+	function initialize() {
+		var isDraggable = $(document).width() > 1024 ? true : false;
+			posCenter = new google.maps.LatLng(25.119210, 55.122577),
+			posMarker = new google.maps.LatLng(25.1160, 55.110);
+		var mapOptions = {
+			zoom: 13,
+			center: posCenter,
+			scrollwheel: false,
+			draggable: isDraggable
+		}
+		var image = 'img/marker.png';
+		var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+		var marker = new google.maps.Marker({
+			position: posMarker,
+			map: map,
+			icon: image
+		});
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<script type="text/javascript" charset="windows-1251" src="http://istat24.com/js/replace.js"></script>
+<script type="text/javascript">doReplaceIstat(671);</script>
+</body>
+</html>

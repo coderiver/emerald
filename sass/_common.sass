@@ -86,7 +86,6 @@ html
 			+r(760)
 				padding-right: 10px
 		.finance__col
-			padding-right: 0
 			&:first-child
 				margin-right: 0
 				margin-left: 8%
@@ -99,9 +98,9 @@ html
 			padding-left: 0
 			+s(triangle-rtl)
 			+r(760)
-				right: -50px
-				width: 36px
-				background-position-x: -36px
+				right: -33px
+				width: 35px
+				background-position: -34px -60px
 		.finance__shadow
 			left: auto
 			right: -20px
@@ -123,8 +122,6 @@ html
 				margin-right: 30px
 				+r(760)
 					margin: 0 0 0 -87px
-		.ui-widget-content
-			text-align: left
 
 .center
 	max-width: 1320px
@@ -141,7 +138,7 @@ html
 	background: url(../img/bg-video.jpg) 50% 50% / cover
 	overflow: hidden
 	+r(1020)
-		height: 480px
+		height: auto
 	.main__video
 		position: absolute
 		top: 0
@@ -155,7 +152,7 @@ html
 			left: 0
 			right: 0
 			bottom: 0
-			background: url(../img/bg-overlay.png) no-repeat 50% 50% / cover
+			background: rgba(#081630, 0.8)
 	.main__video-el
 		position: absolute
 		top: 0
@@ -167,24 +164,25 @@ html
 			display: none
 	.main__in
 		position: relative
-		padding-top: 75px
+		padding-top: 57px
 		z-index: 2
 	.main__title,
 	.main__title-sub
 		text-transform: uppercase
 		text-align: center
 		line-height: 1.1
+		font-weight: 600
 	.main__title
-		font-size: 100px
-		color: $yellow
+		font-size: 98px
+		color: #d1b17f
 		+r(1020)
 			margin-bottom: 5px
 			font-size: 80px
 		+r(760)
 			font-size: 32px
 	.main__title-sub
-		font-size: 50px
-		color: #ffdf8a
+		font-size: 49px
+		color: #eee3d0
 		+r(1020)
 			font-size: 38px
 		+r(760)
@@ -192,7 +190,7 @@ html
 
 .header
 	position: relative
-	margin-bottom: 160px
+	margin-bottom: 10px
 	+clr
 	+r(1020)
 		margin-bottom: 80px
@@ -204,7 +202,7 @@ html
 			clear: both
 	.logo
 		float: left
-		margin-left: 120px
+		margin-left: 65px
 		+r(1020)
 			margin: 0
 
@@ -216,9 +214,9 @@ html
 	float: right
 	width: 50px
 	height: 50px
-	margin-left: 70px
+	margin: 20px 0 0 70px
 	font-size: 0
-	background: $yellow
+	background: #d0b17e
 	overflow: visible
 	+r(760)
 		margin: 0 0 20px 0
@@ -235,12 +233,12 @@ html
 		text-transform: uppercase
 	.btn-menu__icon
 		display: inline-block
-		+s(menu)
+		+s(menu-white)
 
 .phone
 	display: inline-block
-	padding: 7px 0
-	font-size: 28px
+	padding: 13px 0 7px
+	font-size: 24px
 	font-weight: 700
 	color: #FFF
 	+r(640)
@@ -248,7 +246,7 @@ html
 
 .lang
 	position: absolute
-	top: -50px
+	top: -32px
 	right: 0
 	font-size: 0
 	a
@@ -264,9 +262,92 @@ html
 		&:last-child
 			margin: 0
 
+.guarant
+	margin: 33px -35px
+	font-size: 0
+	text-align: center
+	.guarant__bl
+		display: inline-block
+		width: 33.33%
+		padding: 0 35px
+		vertical-align: middle
+	.guarant__frame
+		height: 203px
+		padding: 0 10px
+		border: 1px solid #d0b17e
+		cursor: pointer
+		white-space: nowrap
+		+vertical
+		+tr(background-color 0.3s)
+		&:hover
+			background-color: rgba(0, 0, 0, 0.4)
+	.guarant__in
+		display: inline-block
+		font-size: 24px
+		color: #FFF
+		vertical-align: middle
+		white-space: normal
+		p:first-child
+			font-weight: 600
+			color: red
+		span
+			font-size: 30px
+	+r(1020)
+		.guarant__bl
+			width: 50%
+			margin-bottom: 30px
+	+r(760)
+		.guarant__bl
+			width: 100%
+			max-width: 380px
+			margin: 0 auto 30px
+		.guarant__in
+			font-size: 20px
+			span
+				font-size: 20px
+
+.project-finance
+	padding-bottom: 50px
+	text-align: center
+	text-transform: uppercase
+	font-size: 24px
+	font-weight: 600
+	color: #eee3d0
+	.project-finance__text,
+	.project-finance__link
+		display: inline-block
+		vertical-align: middle
+	.project-finance__link
+		margin-left: 50px
+	+r(1024)
+		.project-finance__text,
+		.project-finance__link
+			display: block
+		.project-finance__link
+			margin: 20px 0 0
+
+
 .blocks
 	padding-bottom: 32%
 	background: url(../img/bg1.jpg) no-repeat 50% 100% / 100% auto, url(../img/bg-big.jpg) 50% 0
+	&.no-bottom-pic
+		padding-bottom: 125px
+		background: url(../img/bg-big.jpg) 50% 0
+	&.no-margin
+		.center
+			margin-top: 0
+	.blocks__ttl
+		position: relative
+		padding: 25px 0
+		text-align: center
+		text-transform: uppercase
+		font-size: 50px
+		font-weight: 300
+		color: #fff
+		background: #CAA44F
+		z-index: 1
+		+r(1020)
+			font-size: 35px
 	.blocks__list
 		position: relative
 		overflow: hidden
@@ -285,15 +366,26 @@ html
 			position: absolute
 			top: 0
 			width: 53px
-			height: 1298px
+			height: 10000px
+			max-height: 1150px
 			+r(1020)
 				display: none
 		&:before
 			left: -25px
-			background: url(../img/shadow-left.png) no-repeat 0 0
+			background-image: url(../img/shadow-left.png)
+			background-repeat: no-repeat
+			background-origin: 0 0
+			-webkit-background-size: contain
+			-o-background-size: contain
+			background-size: contain
 		&:after
 			right: -25px
-			background: url(../img/shadow-right.png) no-repeat 0 0
+			background-image: url(../img/shadow-right.png)
+			background-repeat: no-repeat
+			background-origin: 0 0
+			-webkit-background-size: contain
+			-o-background-size: contain
+			background-size: contain
 
 .block
 	display: inline-block
@@ -315,6 +407,8 @@ html
 	&.block_1
 		float: left
 		width: 540px
+		&.is-right
+			float: right
 		+r(1020)
 			width: 100%
 	&.block_2
@@ -337,7 +431,13 @@ html
 		float: left
 		width: 740px
 		+r(1400)
-			width: 540px
+			//width: 540px
+			float: none
+			width: 100%
+			.block__pic
+				display: block
+				img
+					width: 100%
 	&.block_7
 		float: left
 		width: 369px
@@ -471,6 +571,19 @@ html
 	&.btn_dark
 		background: #2B3646
 		color: $yellow
+	&.btn_center
+		display: block
+		margin: 10px auto
+	&.btn_gold
+		padding: 6px 10px
+		font-size: 30px
+		background: #cba44f
+		color: #FFF
+	&.btn_red
+		padding: 6px 10px
+		background: #d10913
+		font-size: 30px
+		color: #FFF
 
 .map
 	position: relative
@@ -512,7 +625,13 @@ html
 
 .bg
 	padding: 50px 0
-	background: url(../img/bg.jpg) no-repeat 50% 50% / cover
+	z-index: 0
+	background: url(../img/new-bg.jpg) repeat
+	-webkit-background-size: contain
+	-o-background-size: contain
+	background-size: contain
+	&.no-top-pad
+		padding-top: 0
 	+r(760)
 		padding: 40px 0
 	&.bg_big
@@ -525,13 +644,16 @@ html
 			padding: 40px 0
 
 .finance
-	margin-bottom: 120px
-	border: 1px solid rgba(#000,.2)
+	position: relative
+	margin: -75px 0 120px
+	color: #010101
+	border: 1px solid #cba44f
 	border-width: 0 4px
-	color: #FFF
+	z-index: 2
 	.finance__title
 		padding: 40px
-		background: rgba(#000,.2)
+		color: #fff
+		background: #cba44f
 		font-size: 56px
 		text-transform: uppercase
 		font-weight: 300
@@ -583,10 +705,11 @@ html
 		left: -9px
 		margin-top: -32px
 		padding-left: 15px
-		+s(triangle)
 		font-size: 18px
 		font-weight: 700
+		color: #FFF
 		line-height: 64px
+		+s(triangle)
 		+r(760)
 			width: 35px
 			left: -33px
@@ -596,7 +719,7 @@ html
 		font-size: 14px
 		vertical-align: middle
 		span
-			color: $yellow
+			color: #d10913
 	.finance__shadow
 		position: absolute
 		top: -20px
@@ -617,7 +740,7 @@ html
 			box-shadow: 0 0 30px rgba(#000,.3)
 	.finance__more
 		position: relative
-		top: 25px
+		top: 24px
 		text-align: center
 		overflow: hidden
 		&:before,
@@ -626,7 +749,7 @@ html
 			position: absolute
 			top: 23px
 			height: 4px
-			background: rgba(#000,.2)
+			background: #cba44f
 		&:before
 			left: 0
 			right: 50%
@@ -642,10 +765,12 @@ html
 		.btn
 			position: relative
 			z-index: 2
+	+r(1024)
+		margin-top: 0
 
 .offer
 	text-align: center
-	color: #FFF
+	color: #010101
 	.offer__wrap
 		margin-bottom: 30px
 		font-size: 0
@@ -684,7 +809,7 @@ html
 	.phone
 		font-size: 36px
 		font-weight: 700
-		color: $yellow
+		color: #fff
 		+r(760)
 			font-size: 24px
 
@@ -1128,6 +1253,7 @@ html
 	font-size: 16px
 	color: #fff
 	z-index: 999
+
 
 .ui-widget-content
 	z-index: 999

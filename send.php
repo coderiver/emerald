@@ -1,26 +1,27 @@
 <?php
 if ($_POST) {
-        $to_email = "arismiatov@profdigital.com.ua"; //Recipient email, Replace with own email here
+        $to_email = "shevchuk@profdigital.com.ua"; //Recipient email, Replace with own email here
 
         //Sanitize input data using PHP filter_var().
         $user_name = filter_var($_POST["name"], FILTER_SANITIZE_STRING);
         $user_email = filter_var($_POST["email"], FILTER_SANITIZE_STRING);
         $user_phone = filter_var($_POST["phone"], FILTER_SANITIZE_STRING);
         $user_comment = filter_var($_POST["comment"], FILTER_SANITIZE_STRING);
+        $user_referer = filter_var($_POST["referer"], FILTER_SANITIZE_STRING);
 
         // subject
         $subject = "Emerald Palace Kempinski Hotel";
-        
+
         //email body
-        $message_body = $user_name."\r\n".$user_email."\r\n".$user_phone."\r\n".$user_comment;
-        
+        $message_body = $user_name."\r\n".$user_email."\r\n".$user_phone."\r\n".$user_comment."\r\n".$user_referer;
+
         //proceed with PHP email.
         $headers = 'From: '.$user_name.'' . "\r\n" .
         'Reply-To: '.$user_phone.'' . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
-        
+
         $send_mail = mail($to_email, $subject, $message_body, $headers);
-        
+
         if (!$send_mail){
             //If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
             $output = json_encode(array('type'=>'error', 'text' => 'Could not send mail! Please check your PHP mail configuration.'));
