@@ -131,6 +131,30 @@ html
 		max-width: 1220px
 	&.center_small
 		max-width: 1040px
+	&.center_negative-top
+		position: relative
+		top: -75px
+	.center__shadow
+		position: absolute
+		top: -60px
+		left: 20px
+		right: 20px
+		height: 64px
+		background-image: url(../img/shadow-top.png)
+		background-repeat: no-repeat
+		background-position: center center
+		-webkit-background-size: contain
+		-o-background-size: contain
+		background-size: contain
+	+r(1400)
+		.center__shadow
+			top: -50px
+			left: 0
+			right: 0
+	+r(1024)
+		&.center_negative-top
+			top: 0
+
 
 .main
 	position: relative
@@ -202,12 +226,14 @@ html
 			clear: both
 	.logo
 		float: left
-		margin-left: 65px
+		margin: 15px 0 0 65px
 		+r(1020)
-			margin: 0
+			margin: 15px 0 0
 
 .logo
 	+s(logo)
+	&.logo_white
+		+s(logo_white)
 
 .btn-menu
 	position: relative
@@ -328,14 +354,9 @@ html
 
 
 .blocks
-	padding-bottom: 32%
-	background: url(../img/bg1.jpg) no-repeat 50% 100% / 100% auto, url(../img/bg-big.jpg) 50% 0
-	&.no-bottom-pic
-		padding-bottom: 125px
-		background: url(../img/bg-big.jpg) 50% 0
-	&.no-margin
-		.center
-			margin-top: 0
+	padding-bottom: 35%
+	background-color: #dbc39b
+	background: url(../img/bg1.jpg) no-repeat 50% 100% / 100% auto, url(../img/new-bg.png) repeat, linear-gradient(#f5efe3, #d0b07d), -webkit-linear-gradient(#f5efe3, #d0b07d), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5efe3), color-stop(100%, #d0b07d))
 	.blocks__ttl
 		position: relative
 		padding: 25px 0
@@ -354,7 +375,8 @@ html
 		z-index: 2
 	.center
 		position: relative
-		margin-top: -75px
+		&:last-child
+			margin-bottom: 0
 		+r(1400)
 			max-width: 950px
 		+r(1020)
@@ -371,7 +393,7 @@ html
 			+r(1020)
 				display: none
 		&:before
-			left: -25px
+			left: -23px
 			background-image: url(../img/shadow-left.png)
 			background-repeat: no-repeat
 			background-origin: 0 0
@@ -430,8 +452,8 @@ html
 	&.block_6
 		float: left
 		width: 740px
+		max-height: 410px
 		+r(1400)
-			//width: 540px
 			float: none
 			width: 100%
 			.block__pic
@@ -498,8 +520,9 @@ html
 	.block__content
 		height: 588px
 		padding: 50px 80px
-		background: url(../img/bg.jpg)
-		color: #fff
+		background-color: #EBDFCA
+		background: url(../img/new-bg.png), linear-gradient(to top, #d0b07d 0%, #ebdfca 80%, #e2d0b1 100%)
+		color: #010101
 		+r(1020)
 			width: 100%
 			max-width: 100%
@@ -512,13 +535,14 @@ html
 		text-transform: uppercase
 	.block__text
 		font-size: 18px
-		font-weight: 300
+		font-weight: 400
 		p
 			margin-bottom: 22px
 	.block__more
 		font-size: 18px
 		a
 			text-decoration: underline
+			color: #d10913
 			&:hover
 				text-decoration: none
 	.block__pic
@@ -538,7 +562,7 @@ html
 		width: 64px
 		height: 144px
 		margin: 0 30px
-		border: 1px solid #2c3849
+		border: 1px solid #cba44f
 		vertical-align: middle
 		+r(760)
 			display: none
@@ -563,6 +587,11 @@ html
 		width: auto
 	&:hover
 		opacity: .7
+	&.btn_red
+		padding: 6px 10px
+		background: #d10913
+		font-size: 30px
+		color: #FFF
 	&.btn_small
 		padding: 6px 10px
 		font-size: 18px
@@ -579,11 +608,7 @@ html
 		font-size: 30px
 		background: #cba44f
 		color: #FFF
-	&.btn_red
-		padding: 6px 10px
-		background: #d10913
-		font-size: 30px
-		color: #FFF
+
 
 .map
 	position: relative
@@ -626,12 +651,10 @@ html
 .bg
 	padding: 50px 0
 	z-index: 0
-	background: url(../img/new-bg.jpg) repeat
-	-webkit-background-size: contain
-	-o-background-size: contain
-	background-size: contain
-	&.no-top-pad
-		padding-top: 0
+	background-color: #dbc39b
+	background: url(../img/new-bg.png) repeat, linear-gradient(#f5efe3, #d0b07d), -webkit-linear-gradient(#f5efe3, #d0b07d), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5efe3), color-stop(100%, #d0b07d))
+	&.bg_another-pad
+		padding: 0 0 20px
 	+r(760)
 		padding: 40px 0
 	&.bg_big
@@ -645,7 +668,7 @@ html
 
 .finance
 	position: relative
-	margin: -75px 0 120px
+	margin-bottom: 120px
 	color: #010101
 	border: 1px solid #cba44f
 	border-width: 0 4px
@@ -765,8 +788,6 @@ html
 		.btn
 			position: relative
 			z-index: 2
-	+r(1024)
-		margin-top: 0
 
 .offer
 	text-align: center
@@ -812,6 +833,29 @@ html
 		color: #fff
 		+r(760)
 			font-size: 24px
+
+.video
+	min-height: 750px
+	padding-top: 77px
+	background: #000
+	.video__in
+		position: relative
+		height: 536px
+		iframe
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			width: 100%
+			height: 100%
+	+r(1024)
+		min-height: initial
+		padding-top: 50px
+	+r(760)
+		padding: 20px 0
+		.video__in
+			height: 400px
 
 .builder
 	height: 700px
@@ -862,8 +906,8 @@ html
 			background: rgba(#000,.4)
 
 .partners
-	padding: 120px 0
-	+r(1020)
+	padding: 130px 0
+	+r(1200)
 		padding: 70px 0
 	+r(760)
 		padding: 40px 0
@@ -874,7 +918,7 @@ html
 		font-weight: 600
 		text-align: center
 		text-transform: uppercase
-		color: $yellow
+		color: #cba44f
 		&:before,
 		&:after
 			content: ""
@@ -891,22 +935,22 @@ html
 			left: 50%
 			margin-left: 100px
 	.partners__list
-		padding: 40px 5%
+		padding: 40px 2%
+		text-align: center
+		font-size: 0
 		border: 1px solid #f7f7f7
 		border-width: 0 4px 4px
-		font-size: 0
 		+r(760)
 			padding: 40px 0 0 0
 			text-align: center
 	.partners__item
 		display: inline-block
-		width: 20%
+		width: 16.66%
 		padding: 0 10px
-		vertical-align: top
 		font-size: 14px
-		text-align: center
-		+r(760)
-			width: 256px
+		vertical-align: top
+		+r(1200)
+			min-width: 256px
 			margin-bottom: 40px
 	.partners__pic
 		height: 100px
@@ -932,7 +976,7 @@ html
 
 .contacts
 	max-width: 320px
-	color: #fff
+	color: #010101
 	+r(760)
 		max-width: 100%
 	.contacts__title
@@ -940,10 +984,10 @@ html
 		font-size: 30px
 		font-weight: 600
 		text-transform: uppercase
-		color: $yellow
+		color: #010101
 	.contacts__text
 		font-size: 18px
-		font-weight: 300
+		font-weight: 400
 		p
 			margin-bottom: 20px
 		span
@@ -954,12 +998,11 @@ html
 	.contacts__list
 		li
 			position: relative
-			margin-bottom: 20px
+			margin-bottom: 18px
 			padding-left: 25px
 		a
 			font-size: 18px
-			color: #FFF
-			font-weight: 300
+			color: #010101
 		i
 			position: absolute
 			top: 5px
@@ -1005,7 +1048,7 @@ html
 			display: inline-block
 			margin: 0 20px 10px 0
 			font-size: 16px
-			color: #446f96
+			color: #fff
 			text-decoration: underline
 			&:hover
 				text-decoration: none
@@ -1032,7 +1075,10 @@ html
 	width: 100%
 	height: 36px
 	padding: 0 12px
-	+placeholder-color(#000)
+	+placeholder
+		color: #000
+		font-size: 18px
+		line-height: 1
 	&.error
 		box-shadow: 0 0 0 2px red inset
 	&.input_area
@@ -1045,7 +1091,7 @@ html
 .form
 	max-width: 600px
 	padding: 30px 40px
-	border: 4px solid #5e6979
+	border: 4px solid #cba44f
 	background: url(../img/bg.jpg)
 	+r(760)
 		padding: 30px 20px
@@ -1063,6 +1109,7 @@ html
 			min-height: 72px
 			margin-bottom: 5px
 			padding: 0 40px
+			color: #010101
 			+r(1020)
 				padding: 0 20px
 			+r(760)
@@ -1078,7 +1125,7 @@ html
 				top: 50%
 				height: 4px
 				margin-top: -4px
-				background: #5e6979
+				background: #cba44f
 				+r(760)
 					display: none
 			&:before
@@ -1094,7 +1141,7 @@ html
 		margin-bottom: 25px
 		padding: 0 20px
 		font-size: 30px
-		font-weight: 300
+		font-weight: 400
 		color: #FFF
 		text-align: center
 		line-height: 1.2
@@ -1120,13 +1167,14 @@ html
 	+r(760)
 		padding: 10px
 	&.popup_menu
-		background: url(../img/bg.jpg) no-repeat 50% 50% / cover
+		background-color: #dbc39b
+		background: url(../img/new-bg.png) repeat, linear-gradient(#f5efe3, #d0b07d), -webkit-linear-gradient(#f5efe3, #d0b07d), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5efe3), color-stop(100%, #d0b07d))
 		.popup__in
 			max-width: 672px
 		.popup__close
-			background: $yellow
+			background: #c9a251
 			&:before
-				+s(close-black)
+				+s(close_white)
 	&.popup_gallery
 		padding: 0
 		&:before
@@ -1164,6 +1212,15 @@ html
 			display: inline-block
 			font-size: 0
 			+s(close)
+	.btn
+		font-weight: 400
+		color: #FFF
+		background: #c9a251
+	.offer
+		.offer__in, .offer__wrap:before, .offer__wrap:after
+			border-color: #aa9371
+		.btn
+			background: #d00e16
 
 .menu
 	margin-bottom: 60px
@@ -1171,7 +1228,7 @@ html
 		margin-bottom: 40px
 		padding: 10px 0
 		font-size: 30px
-		color: #fff
+		color: #010101
 		text-transform: uppercase
 		font-weight: 600
 		text-align: left

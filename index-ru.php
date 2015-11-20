@@ -34,20 +34,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="wrapper">
 	<!-- main -->
 	<div id="main" class="main">
-		<div class="main__video">
-			<video class="main__video-el" autoplay="autoplay" title="video" loop="loop">
-				<source src="video/video.webm" type="video/webm" />
-				<source src="video/video.mp4" type="video/mp4" />
-				<source src="video/video.ogv" type="video/ogg" />
-			</video>
-		</div>
+		<div class="main__video"></div>
 		<div class="main__in">
 			<!-- center -->
 			<div class="center">
 				<!-- header -->
 				<header class="header">
 					<!-- logo -->
-					<div class="logo"></div>
+					<div class="logo logo_white"></div>
 					<!-- btn-menu -->
 					<button class="btn-menu js-popup-enter" data-popup="js-popup-menu">
 						<span class="btn-menu__title">меню</span>
@@ -106,9 +100,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 	</div>
 	<!-- bg -->
-	<div id="finance" class="bg no-top-pad">
+	<div id="finance" class="bg bg_another-pad">
 		<!-- center -->
-		<div class="center center_middle">
+		<div class="center center_middle center_negative-top">
 			<!-- finance -->
 			<div class="finance">
 				<div class="finance__title">ВЕСОМЫЙ ФИНАНСОВЫЙ АКТИВ</div>
@@ -170,10 +164,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			</div>
 		</div>
 	</div>
-	<!-- blocks -->
-	<div id="luxury" class="blocks no-bottom-pic">
+	<!-- video -->
+	<div class="video">
 		<!-- center -->
 		<div class="center">
+			<div class="video__in">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Ct7mrdJAGRI" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<!-- blocks -->
+	<div id="luxury" class="blocks">
+		<!-- center -->
+		<div class="center center_negative-top">
 			<div class="blocks__list">
 				<!-- block -->
 				<div class="block block_1">
@@ -221,11 +224,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				</a>
 			</div>
 		</div>
-	</div>
-	<!-- blocks -->
-	<div class="blocks no-margin">
 		<!-- center -->
 		<div class="center">
+			<span class="center_shadow-top"></span>
 			<div class="blocks__ttl">Фото интерьеров номеров</div>
 			<div class="blocks__list">
 				<!-- block -->
@@ -323,7 +324,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<!-- partners -->
 	<div class="partners">
 		<!-- center -->
-		<div class="center center_middle">
+		<div class="center">
 			<div class="partners__title">Партнеры</div>
 			<div class="partners__list">
 				<div class="partners__item">
@@ -401,13 +402,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div class="contacts">
 							<div class="contacts__title">Контактная информация</div>
 							<div class="contacts__text">
-								<p><span>Для получения информации <br>и по вопросам приобретения <br>обращайтесь:</span></p>
+								<p>Для получения информации <br>и по вопросам приобретения <br>обращайтесь:</p>
 								<p>Emerald Palace Real Estate Broker <br>Kempinski Residences & <br>Apartments Palm Jumeirah - Ground <br>Floor - PO Box 214991 Dubai - UAE</p>
 							</div>
 							<ul class="contacts__list">
-								<span id="istat_2"><li><i class="contacts__phone1"></i><a href="tel:+971503593388">+971-50-3593388</a><br><a href="tel:+971503593366">+971-50-3593366</a></li>
-                            </span>
-								<li><i class="contacts__mail"></i><a href="mailto:info@emeraldpalacere.com">info@emeraldpalacere.com</a></li>
+								<span id="istat_2">
+									<li>
+										<i class="contacts__phone"></i><a href="tel:+971-4-4561060">+971-4-4561060</a><br><a href="tel:+971-4-4561065">+971-4-4561065</a>
+									</li>
+									<li>
+										<i class="contacts__phone1"></i><a href="tel:+971-50-3593388">+971-50-3593388</a><br><a href="tel:+971-50-3593388">+971-50-3593388</a>
+									</li>
+									<li>
+										<i class="contacts__fax"></i><a href="tel:++971-4-4561070">+971-4-4561070</a>
+									</li>
+                           		</span>
+								<li>
+									<i class="contacts__mail"></i><a href="mailto:info@emeraldpalacere.com">info@emeraldpalacere.com</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -441,7 +453,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 									</div>
 								</div>
 								<input type="hidden" value="<?php echo $_SERVER["HTTP_REFERER"]; ?>" name="referer">
-								<button class="btn btn_small btn_wide" id="2">ОТПРАВИТЬ</button>
+								<button class="btn btn_small btn_red btn_wide" id="2">ОТПРАВИТЬ</button>
 							</div>
 						</form>
 					</div>
